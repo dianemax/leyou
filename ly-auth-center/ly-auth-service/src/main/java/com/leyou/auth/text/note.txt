@@ -1,0 +1,108 @@
+token 问题
+
+1、 请求方式：post
+    请求路径：http://localhost:8087/login
+    返回header：LY_TOKEN=eyJhbGciOiJSUzI1NiJ9
+                    .eyJpZCI6MzIsInVzZXJuYW1lIjoiZGlhbmVtYXgiLCJleHAiOjE1NTUzMzE2MjF9
+                    .cYjoy_DaqlYx5Gum-xU7TExtENS1KBvNg_Sjdo1PBcW_tjYBu1xXtWfkwQV1_y03ttDcvs0PF3fQWkJOkmICv3n8Dy0do_M6KMMjG7fcNW-Mmk2blun-Ohw69o9ZSx0W0MSNGVMjR38OLyi9OumG3FzX2XjRB6GO_veBwMB5cmU;
+                Domain=localhost;
+                Path=/;
+                HttpOnly
+    存在问题：
+        前端F12控制台cookie中并没有token信息
+
+    解决思路：
+        1.1 前端访问时URL为：http://www.leyou.com/
+            测试时访问URL为：http://localhost:8087/login
+
+        1.2 可能存在的问题：
+            1.2.1 nginx的问题
+            1.2.2 网关的问题       --- 二者都有可能产生问题，要逐一排查
+
+        1.3 解决过程
+            1.3.1 设置断点，在产生token的  cookieUtils中的build()函数设置断点，单步执行
+    ***     1.3.2 执行到setDomain,首先由request.getRequestURL()获取请求路径 --- 发现请求路径被改变了
+                  发现URL从http://www.leyou.com/变成了serverName：http://127.0.0.1:8087/login
+                  之后经过一些截取操作，serverName变成了0.0.1，如果是api.leyou.com的话，最终就变成了leyou.com
+                  而leyou.com是所有相关网站的共同后缀，可以供leyou所有网站来访问
+    ***     1.3.3 为什么从api.leyou.com变成了127.0.0.1?
+                  --- 因为使用了nginx反向代理 --- 当访问leyou域名时，这个域名指向了虚拟机
+                      nginx配置：
+                         server {
+                            listen       80;
+                            server_name  api.leyou.com;
+
+                            proxy_set_header X-Forwarded-Host $host;
+                            proxy_set_header X-Forwarded-Server $host;
+                            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+                            location / {
+                                proxy_pass http://192.168.57.1:10010;
+                            }
+                         }
+                       api.leyou.com被反向代理到了192.168.57.1这个地址 --- 此处已经将域名改成了ip地址 ！
+            1.3.4 request.getRequestURL tomcat是怎么拿到域名地址的?
+                       在浏览器F12控制台 随便打开一个js请求，可以发现Request URL: http://www.leyou.com/plugins/jquery/jquery.min.js
+                       上述URL在request中其实被分成了几段来表示：
+                            Host:www.leyou.com
+                            GET /js/plugins/jquery/jquery.min.js  HTTP/1.1
+                       影响我们得到路径的原因就是Host ！ --- 于是在nginx反向代理时多设置一个Host头。
+    ***     1.3.5 将nginx的conf文件修改 添加：proxy_set_header Host $host; 重启nginx。
+    ***     1.3.6 重新debug,发现serverName还是 127.0.0.1，此时想到网关也做了一次反向代理。
+            1.3.7 debug方式启动网关，在网关中有很多过滤器，这些过滤器默认继承自ZuulFilter
+                  在其中一个PreDecorationFilter的run方法打个断点，查询host,调用方法ctx.getRequest().getHeader("host")
+                  发现此时的host是api.leyou.com 是正确的，理论上此时放行，是不会出现错误的，如果此时出现错误，那就是网关没有将host写进去
+            1.3.8 事实上，到此为止并没有将host写进去，原因是有个if判断 -- porperties.isAddHostHeader()，成立才将host写入
+                  点进方法发现AddHostHeader是一个boolean值，值为false，属于ZuulProperties,前缀是zuul，修改这个值很简单
+            1.3.9 在网关的application.yml文件中将add-host-header的值设置成true
+            1.3.10事实上到这里还没有结束，过滤器中还有一个addIgnoredHeaders方法，会对敏感头进行过滤
+                  sensitiveHeaders中的默认值为“cookie”、“Set-Cookie”、“Authorization”，此时host可以传过去，但是Set-Cookie会被过滤掉
+    ***     1.3.11还有一个叫RibbonRoutingFilter的过滤器，做负载均衡路由的方法，它在构建上下文时会获取header，对头进行处理，有一个判断语句
+                  如果是被允许的头信息，才会将其添加到Headers中去，如果头是被忽略的，则不会被添加
+                  但是下面有一个switch语句，如果name是host，则忽略...因此cookie永远不会被set进去
+            1.3.12在网关的application.yml文件中配置 sensitive-headers:
+
+    ---  BUG: host永远不会被添加进去
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

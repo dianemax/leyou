@@ -1,0 +1,9 @@
+server:
+  port: 10086
+spring:
+  application:
+    name: ly-registry #spring.application.name,这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka

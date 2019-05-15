@@ -1,0 +1,51 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: api-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+zuul:
+  prefix: /api # 添加路由前缀
+  routes:
+    item-service: /item/**
+    search-service: /search/**
+    user-service: /user/**
+    auth-service: /auth/**
+    cart-service: /cart/**
+    order-service: /order/**
+    ignored-services:
+      - upload-service # 忽略upload-service服务
+  add-host-header: true
+  sensitive-headers:
+#    upload-service: #/upload/**:不能这样写，网关捕获到upload之后页面的url只剩下/image，但是controller里面是/upload/image,所以不能去除upload的前缀
+#      path: /upload/**
+#      serviceId: upload-service
+#      strip-prefix: false
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillisecond: 5000 # 熔断超时时长：10000ms
+ribbon:
+  ConnectTimeout: 1000 # 连接超时时间(ms)
+  ReadTimeout: 3500 # 通信超时时间(ms)
+  MaxAutoRetriesNextServer: 0 # 同一服务不同实例的重试次数
+  MaxAutoRetries: 0 # 同一实例的重试次数
+ly:
+  jwt:
+    pubKeyPath: H:/javacode/idea/rsa/rsa.pub # 公钥地址
+    cookieName: LY_TOKEN
+  filter:
+      allowPaths:
+        - /api/auth
+        - /api/search
+        - /api/user/register
+        - /api/user/check
+        - /api/user/code
+        - /api/item
+        - /api/cart
