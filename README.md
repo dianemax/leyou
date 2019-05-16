@@ -1,3 +1,5 @@
+[![Analytics](https://github.com/dianemax/leyou/UA-140322678-1)](https://github.com/igrigorik/ga-beacon)
+
 # 1.乐优商城介绍
 
 ## 1.1.项目介绍
