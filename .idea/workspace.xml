@@ -2,253 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b55b8a1f-c913-4d4a-bef1-1691e64d85d4" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/classes/com/leyou/auth/entity/UserInfo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/classes/com/leyou/auth/utils/JwtConstans.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/classes/com/leyou/auth/utils/JwtUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/classes/com/leyou/auth/utils/ObjectUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/classes/com/leyou/auth/utils/RsaUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/ly-auth-common-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/com/leyou/LyAuthApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/com/leyou/auth/client/UserClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/com/leyou/auth/config/JwtProperties.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/com/leyou/auth/service/AuthService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/classes/com/leyou/auth/web/AuthController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/ly-auth-service-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/ly-auth-service-1.0.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-auth-center/ly-auth-service/target/test-classes/com/leyou/JwtTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/LyCartApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/config/JwtProperties.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/config/MvcConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/interceptor/UserInterceptor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/pojo/Cart.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/service/CartService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/classes/com/leyou/cart/web/CartController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/ly-cart-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/ly-cart-1.0.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/advice/CommonExceptionHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/dto/CartDTO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/enums/ExceptionEnum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/exception/LyException.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/mapper/BaseMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/CookieUtils$CookieBuilder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/CookieUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/IdWorker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/JsonUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/Md5Utils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/NumberUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/utils/ThreadUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/vo/ExceptionResult.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/com/leyou/common/vo/PageResult.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/classes/hello.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/ly-common-1.0.0-SNAPSHOT-execute.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/ly-common-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/classes/META-INF/ly-gateway.kotlin_module" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/classes/com/leyou/gateway/LyGateway.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/classes/com/leyou/gateway/config/FilterProperties.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/classes/com/leyou/gateway/config/GlobalCorsConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/classes/com/leyou/gateway/config/JwtProperties.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/classes/com/leyou/gateway/filters/AuthFilter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/ly-gateway-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/ly-gateway-1.0.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/api/BrandApi.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/api/CategoryApi.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/api/GoodsApi.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/api/SpecificationApi.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Brand.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Category.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Sku.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpecGroup.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpecParam.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Spu.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpuDetail.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Stock.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/classes/hello.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/ly-item-interface-1.0.0-SNAPSHOT-execute.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/ly-item-interface-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/LyItemApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/BrandMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/CategoryMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SkuMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpecGroupMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpecParamMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpuDetailMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpuMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/StockMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/service/BrandService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/service/CategoryService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/service/GoodsService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/service/SpecificationService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/web/BrandController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/web/CategoryController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/web/GoodsController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/com/leyou/item/web/SpecificationController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/ly-item-service-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/ly-item-service-1.0.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/LyOrderApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/client/AddressClient$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/client/AddressClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/client/GoodsClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/config/IdWorkerConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/config/IdWorkerProperties.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/config/JwtProperties.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/config/MvcConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/config/PayConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/config/WXPayConfiguration.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/dto/AddressDTO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/dto/OrderDTO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/enums/OrderStatusEnum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/enums/PayState.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/interceptors/UserInterceptor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/mapper/OrderDetailMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/mapper/OrderMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/mapper/OrderStatusMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/pojo/Order.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/pojo/OrderDetail.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/pojo/OrderStatus.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/service/OrderService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/utils/PayHelper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/web/NotifyController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/classes/com/leyou/order/web/OrderController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/ly-order-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/ly-order-1.0.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-order/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/classes/com/leyou/LyPageApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/classes/com/leyou/page/client/BrandClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/classes/com/leyou/page/client/CategoryClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/classes/com/leyou/page/client/GoodsClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/classes/com/leyou/page/client/SpecificationClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/classes/com/leyou/page/mq/ItemListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/classes/com/leyou/page/service/PageService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/classes/com/leyou/page/web/PageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/classes/templates/item.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/ly-page-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/ly-page-1.0.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-page/target/test-classes/com/leyou/page/service/PageServiceTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-registry/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-registry/target/classes/com/leyou/LyRegistry.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-registry/target/ly-registry-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-registry/target/ly-registry-1.0.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-registry/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-registry/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-registry/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/LySearchApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/client/BrandClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/client/CategoryClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/client/GoodsClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/client/SpecificationClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/mq/ItemListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/pojo/Goods.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/pojo/SearchRequest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/pojo/SearchResult.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/repository/GoodsRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/service/SearchService$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/service/SearchService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/classes/com/leyou/search/web/SearchController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/ly-search-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/ly-search-1.0.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/test-classes/com/leyou/search/client/CategoryClientTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-search/target/test-classes/com/leyou/search/repository/GoodsRepositoryTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/classes/com/leyou/LySmsApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/classes/com/leyou/sms/config/SmsProperties.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/classes/com/leyou/sms/mq/SmsListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/classes/com/leyou/sms/utils/SmsUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/ly-sms-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/ly-sms-1.0.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-sms/target/test-classes/com/leyou/SmsTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/classes/com/leyou/LyUploadApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/classes/com/leyou/upload/config/FastClientImporter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/classes/com/leyou/upload/config/GlobalCorsConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/classes/com/leyou/upload/service/UploadService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/classes/com/leyou/upload/web/UploadController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/ly-upload-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/ly-upload-1.0.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-upload/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-interface/target/classes/com/leyou/user/api/UserApi.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-interface/target/classes/com/leyou/user/pojo/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-interface/target/ly-user-interface-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-interface/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/com/leyou/LyUserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/com/leyou/user/controller/UserController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/com/leyou/user/mapper/UserMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/com/leyou/user/service/UserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/classes/com/leyou/user/utils/CodecUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/ly-user-service-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/ly-user-service-1.0.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -299,102 +55,22 @@
     <favorites_list name="leyou" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-search/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="10" />
+            <state relative-caret-position="252">
+              <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-page/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-order/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ly-user/ly-user-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-gateway/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-cart/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionResult.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/vo/ExceptionResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -485,11 +161,11 @@
         <option value="$PROJECT_DIR$/ly-upload/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-user/ly-user-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/leyou/user/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ly-sms/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -512,6 +188,11 @@
         <option name="mavenHome" value="D:/apache-maven-3.0.5" />
         <option name="userSettingsFile" value="D:\apache-maven-3.0.5\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -576,8 +257,7 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="4" />
+    <option name="x" value="-19" />
     <option name="width" value="1364" />
     <option name="height" value="740" />
   </component>
@@ -616,8 +296,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -628,133 +306,7 @@
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-registry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-upload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
               <item name="ly-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-user" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-user-interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
@@ -766,6 +318,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -781,7 +335,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25862068" />
@@ -1190,7 +744,8 @@
       <workItem from="1557796225075" duration="13000" />
       <workItem from="1557796749026" duration="3841000" />
       <workItem from="1557819303310" duration="1074000" />
-      <workItem from="1557884015120" duration="420000" />
+      <workItem from="1557884015120" duration="3082000" />
+      <workItem from="1558008091270" duration="2747000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1557734582241</created>
@@ -1235,7 +790,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="556580000" />
+    <option name="totallyTimeSpent" value="561989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1248,11 +803,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4764992" sideWeight="0.53630865" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10892587" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2193646" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1265,12 +819,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20583469" sideWeight="0.46369138" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53808755" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1993517" sideWeight="0.46369138" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5153971" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2382496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34304208" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31467474" sideWeight="0.44554454" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23600605" sideWeight="0.44554454" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28290468" sideWeight="0.55445546" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1289,6 +843,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1316,27 +896,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ly-auth-center/ly-auth-service/src/main/java/com/leyou/auth/text/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-auth-center/ly-auth-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/mapper/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1559,7 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1571,26 +1129,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="59" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-user/ly-user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1621,7 +1163,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ly-page/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="0">
           <caret line="9" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="10" />
           <folding />
         </state>
@@ -1683,10 +1225,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sql.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="41" column="55" lean-forward="false" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/vo/ExceptionResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="180">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.1.RELEASE/spring-boot-dependencies-2.0.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1314">
+          <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.1.RELEASE/spring-boot-starter-parent-2.0.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-user/ly-user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding />
         </state>
       </provider>

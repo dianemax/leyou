@@ -24,12 +24,21 @@
     <name>leyou</name>
     <description>Demo project for Spring Boot</description>
     <packaging>pom</packaging>
+    <!-- maven工程中pom jar war的区别-->
+    <!-- 1.pom:  用在父工程中或者聚合工程中，做jar包的版本控制
+         2.jar： 将会打包成jar包，用作jar包使用
+         3.war： 将会打包成war，发布在服务器上的工程。如网站或服务 -->
 
+    <!-- https://docs.spring.io/spring-boot/docs/2.1.5.RELEASE/reference/htmlsingle/#using-boot-maven-->
+    <!-- lookup parent from repository -->
+    <!-- 用来做父版本的版本控制
+        spring-boot-starter-parent依赖了spring-boot-dependencies管理项目中所有要使用到的jar包版本
+        这样写其他工程的pom文件中maven依赖就不需要写版本号了-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.1.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <properties>
