@@ -1,4 +1,4 @@
-[![Analytics](https://ga-beacon.appspot.com/UA-140322678-1/welcome-page)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-140322678-1/welcome-page)](https://github.com/dianemax/leyou)
 
 # 1.乐优商城介绍
 
