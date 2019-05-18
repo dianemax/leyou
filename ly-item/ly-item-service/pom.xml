@@ -13,6 +13,7 @@
     <artifactId>ly-item-service</artifactId>
 
     <dependencies>
+        <!--支持classic和RESTFull的web应用程序启动-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
