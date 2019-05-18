@@ -1,0 +1,10 @@
+介绍：
+    SpringBoot 是 Spring 的一套快速配置脚手架，可以基于spring boot 快速开发单个微服务,快速、方便集成的单个个体，约定大于配置
+    SpringCloud是一个基于Spring Boot实现的云应用开发工具，是关注全局的服务治理框架，必须基于SpringBoot开发
+
+区别：
+    SpringBoot可以离开SpringCloud独立使用开发项目
+    SpringCloud离不开SpringBoot，属于依赖的关系
+
+联系：
+    Spring -> SpringBoot > SpringCloud 这样的关系

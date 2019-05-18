@@ -1,0 +1,30 @@
+jar：默认的打包方式，打包成jar用作jar包使用。
+        例如`ly-common`，它就是存放一些其他工程都会使用的类，工具类。我们可以在其他工程的pom文件中去引用它
+war：将会打包成war，发布在服务器上，如网站或服务。
+        例如`leyou-portal`，用户可以通过浏览器直接访问，或者是通过发布服务被别的工程调用
+pom：用在父级工程或聚合工程中，用来做jar包的版本控制，必须指明这个聚合工程的打包方式为pom
+        例如`leyou`,创建12个model分别为
+
+        <modules>
+                <module>ly-registry</module>
+                <module>ly-gateway</module>
+                <module>ly-item</module>
+                <module>ly-common</module>
+                <module>ly-upload</module>
+                <module>ly-search</module>
+                <module>ly-page</module>
+                <module>ly-sms</module>
+                <module>ly-user</module>
+                <module>ly-auth-center</module>
+                <module>ly-cart</module>
+                <module>ly-order</module>
+        </modules>
+
+        同时会自动生成12个独立的maven工程。聚合工程只是用来帮助其他模块构建的工具，本身并没有实质的内容。
+        具体每个工程代码的编写还是在生成的工程中去写。
+
+使用聚合工程`leyou`的意义就：
+    原本这些模块也是一个个独立的工程，现在将它们聚合到`leyou`中，这样我们构建项目的时候就只要构建`leyou`一个就行了。
+    我们只要使用`maven`构建这个聚合工程就行了而不用去操心模块的构建
+    比如install时只要install `leyou`就行。总之就是简化操作。
+    正常的编码工作还是在对应的maven工程中进行的。
