@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b55b8a1f-c913-4d4a-bef1-1691e64d85d4" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt" afterPath="$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt" />
+      <change beforePath="$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot" afterPath="$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot" />
+      <change beforePath="$PROJECT_DIR$/ly-note/maven的三种项目打包方式——jar，war，pom的区别.txt" afterPath="$PROJECT_DIR$/ly-note/3.maven的三种项目打包方式——jar，war，pom的区别.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,51 +58,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="22" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maven的三种项目打包方式——jar，war，pom的区别.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-note/maven的三种项目打包方式——jar，war，pom的区别.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-common/pom.xml">
+      <file leaf-file-name="LyItemApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/LyItemApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <caret line="17" column="5" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.maven的三种项目打包方式——jar，war，pom的区别.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-note/3.maven的三种项目打包方式——jar，war，pom的区别.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.SpringCloud与SpringBoot" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.restfull风格的特点.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1404">
+              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4.SpringBoot的启动是由SpringApplication.run，那么它到底经历了什么？" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ly-note/4.SpringBoot的启动是由SpringApplication.run，那么它到底经历了什么？">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-72">
+              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -130,6 +137,8 @@
       <find>options</find>
       <find>idworker</find>
       <find>querySku</find>
+      <find>start</find>
+      <find>initialize</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,8 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/LyOrderApplication.java" />
-        <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/client/AddressClient.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/StockMapper.java" />
         <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/PayConfig.java" />
         <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/PayConfiguration.java" />
@@ -190,10 +197,12 @@
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" />
-        <option value="$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt" />
-        <option value="$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot" />
         <option value="$PROJECT_DIR$/ly-note/maven的三种项目打包方式——jar，war，pom的区别.txt" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ly-note/3.maven的三种项目打包方式——jar，war，pom的区别.txt" />
+        <option value="$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot" />
+        <option value="$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt" />
+        <option value="$PROJECT_DIR$/ly-note/4.SpringBoot的启动是由SpringApplication.run，那么它到底经历了什么？" />
       </list>
     </option>
   </component>
@@ -285,7 +294,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1365" />
+    <option name="x" value="-1349" />
+    <option name="y" value="-11" />
     <option name="width" value="1364" />
     <option name="height" value="740" />
   </component>
@@ -326,8 +336,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,7 +348,91 @@
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
               <item name="ly-item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
@@ -349,8 +443,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -778,6 +872,7 @@
       <workItem from="1558008091270" duration="2747000" />
       <workItem from="1558057633683" duration="1224000" />
       <workItem from="1558144061920" duration="16931000" />
+      <workItem from="1558267061912" duration="4660000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1557734582241</created>
@@ -822,7 +917,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="580144000" />
+    <option name="totallyTimeSpent" value="584804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -835,6 +930,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10048623" sideWeight="0.53933436" order="10" side_tool="true" content_ui="tabs" />
@@ -851,12 +947,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.267423" sideWeight="0.46066564" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1961102" sideWeight="0.46066564" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5153971" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2382496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34304208" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24357034" sideWeight="0.44554454" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473525" sideWeight="0.44554454" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28290468" sideWeight="0.55445546" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -928,34 +1024,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ly-auth-center/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/client/GoodsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/SpecificationApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -988,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,7 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,7 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,7 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,7 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-370">
           <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +1164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,25 +1179,8 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,11 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <marker date="1552552456000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1552552456000" expanded="false" signature="156:607" ph="..." />
-            <marker date="1552552456000" expanded="true" signature="609:763" ph="@{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1185,7 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,7 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,7 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1995">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,7 +1272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1249,12 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-842">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="e#1095#1096#0" expanded="false" />
-            <element signature="e#1149#1150#0" expanded="false" />
-            <element signature="e#1195#1196#0" expanded="false" />
-            <element signature="e#1297#1298#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1262,7 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,22 +1301,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="22" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot">
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="58" column="15" lean-forward="false" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1306,34 +1352,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-common/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.1.RELEASE/spring-boot-2.0.1.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <marker date="1552041654000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1552041654000" expanded="false" signature="148:2679" ph="..." />
+            <marker date="1552041654000" expanded="false" signature="4777:4788" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="4831:4837" ph=" }" />
+            <marker date="1552041654000" expanded="true" signature="4924:5746" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="5806:6491" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="6543:7138" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="7202:9143" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="9284:9988" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="10205:11012" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="11086:11326" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="11373:11503" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="11578:11813" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="11888:11964" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="12082:12472" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="12630:13384" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="13447:13722" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="13816:13932" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="14030:14953" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="15044:15316" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="15396:15677" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="15759:15996" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="16066:16646" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="16720:17788" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="17879:18507" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="18586:19066" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="19118:19260" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="19343:19973" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="20013:20126" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="20198:20834" ph="{...}" />
+            <marker date="1552041654000" expanded="false" signature="20881:20892" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="20919:20925" ph=" }" />
+            <marker date="1552041654000" expanded="true" signature="20967:21094" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="21185:21583" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="21698:21765" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="21833:21991" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="22092:22099" ph="{}" />
+            <marker date="1552041654000" expanded="true" signature="22185:22879" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="22962:23148" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="23231:23433" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="23631:24219" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="24331:24943" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="25009:25197" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="25292:25727" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="25831:26065" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="26175:26568" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="26649:26915" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="26980:27100" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="27157:27331" ph="{...}" />
+            <marker date="1552041654000" expanded="false" signature="27378:27389" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="27422:27428" ph=" }" />
+            <marker date="1552041654000" expanded="true" signature="27501:27566" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="27572:27590" ph="/**...*/" />
+            <marker date="1552041654000" expanded="false" signature="27644:27655" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="27716:27722" ph=" }" />
+            <marker date="1552041654000" expanded="false" signature="27777:27788" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="27819:27825" ph=" }" />
+            <marker date="1552041654000" expanded="true" signature="27831:27849" ph="/**...*/" />
+            <marker date="1552041654000" expanded="true" signature="27924:28036" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="28115:28259" ph="{...}" />
+            <marker date="1552041654000" expanded="false" signature="28306:28317" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="28342:28348" ph=" }" />
+            <marker date="1552041654000" expanded="true" signature="28420:28485" ph="{...}" />
+            <marker date="1552041654000" expanded="false" signature="28527:28538" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="28559:28565" ph=" }" />
+            <marker date="1552041654000" expanded="false" signature="28613:28624" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="28653:28659" ph=" }" />
+            <marker date="1552041654000" expanded="false" signature="28718:28729" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="28766:28772" ph=" }" />
+            <marker date="1552041654000" expanded="true" signature="28852:28925" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="29003:29062" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="29131:29437" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="29497:29582" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="29658:29717" ph="{...}" />
+            <marker date="1552041654000" expanded="false" signature="29786:29797" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="29828:29834" ph=" }" />
+            <marker date="1552041654000" expanded="true" signature="29917:29986" ph="{...}" />
+            <marker date="1552041654000" expanded="false" signature="30023:30034" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="30054:30060" ph=" }" />
+            <marker date="1552041654000" expanded="true" signature="30110:30229" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="30270:30621" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="30688:30816" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="30934:31149" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="31229:31422" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="31525:31625" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="31706:31776" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="31845:31912" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="31999:32090" ph="{...}" />
+            <marker date="1552041654000" expanded="false" signature="32154:32165" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="32213:32219" ph=" }" />
+            <marker date="1552041654000" expanded="false" signature="32274:32285" ph=" { " />
+            <marker date="1552041654000" expanded="false" signature="32333:32339" ph=" }" />
+            <marker date="1552041654000" expanded="true" signature="32434:32495" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="32592:32665" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="32727:32767" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="32865:33716" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="33776:33984" ph="{...}" />
+            <marker date="1552041654000" expanded="true" signature="34065:34243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/LyItemApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <caret line="17" column="5" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-note/3.maven的三种项目打包方式——jar，war，pom的区别.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="434">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-note/maven的三种项目打包方式——jar，war，pom的区别.txt">
+    <entry file="file://$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="1404">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.1.RELEASE/spring-boot-2.0.1.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="138">
+          <caret line="1191" column="29" lean-forward="false" selection-start-line="1191" selection-start-column="19" selection-end-line="1191" selection-end-column="29" />
+          <folding>
+            <element signature="e#9666#9667#0" expanded="true" />
+            <element signature="e#9699#9700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-note/4.SpringBoot的启动是由SpringApplication.run，那么它到底经历了什么？">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding />
         </state>
       </provider>

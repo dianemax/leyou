@@ -1,0 +1,129 @@
+eg:
+
+    @SpringBootApplication
+    @EnableEurekaClient
+    @MapperScan("com.leyou.item.mapper")
+    public class LyItemApplication {
+        public static void main(String[] args) {
+            SpringApplication.run(LyItemApplication.class,args);
+        }
+    }
+
+    可以发现在主方法main里启动了一个SpringApplication，启动方法是run方法。
+
+
+SpringApplication用来从java main方法启动一个spring应用，默认的启动步骤如下：
+
+    1)创建一个合适的ApplicationContext实例,这个实例取决于classpath。
+
+    2)注册一个CommandLinePropertySource，以spring属性的形式来暴露命令行参数。
+
+    3)刷新ApplicationContext，加载所有的单例bean。
+
+    4)触发所有的命令行CommanLineRunner来执行bean
+
+    springApplication可以读取不同种类的源文件：
+
+        1) 类- java类由AnnotatedBeanDefinitionReader加载。
+        2) Resource - xml资源文件由XmlBeanDefinitionReader读取, 或者groovy脚本由GroovyBeanDefinitionReader读取
+        3) Package - java包文件由ClassPathBeanDefinitionScanner扫描读取。
+        4) CharSequence - 字符序列可以是类名、资源文件、包名，根据不同方式加载。如果一个字符序列不可以解析程序到类，也不可以解析到资源文件，那么就认为它是一个包。
+
+--------------------------------------------------------------------------------------------------------------------
+
+大部分场景下，可以从application的main方法中直接调用它的run()静态方法:
+
+1 初始化
+    public SpringApplication(Object... sources) {
+            initialize(sources);
+    }
+
+2 运行方法run：
+        /**
+         * Run the Spring application, creating and refreshing a new
+         * {@link ApplicationContext}.
+         * @param args the application arguments (usually passed from a Java main method)
+         * @return a running {@link ApplicationContext}
+         */
+        public ConfigurableApplicationContext run(String... args) {
+            StopWatch stopWatch = new StopWatch();
+            stopWatch.start();
+            ConfigurableApplicationContext context = null;
+            configureHeadlessProperty(); // 2.1 配置属性
+            SpringApplicationRunListeners listeners = getRunListeners(args); //2.2 获取监听器
+            listeners.started(); // 2.3 启动监听器
+            try {
+                ApplicationArguments applicationArguments = new DefaultApplicationArguments(
+                        args);
+                context = createAndRefreshContext(listeners, applicationArguments); // 2.4 创建并刷新容器(重点)
+                               // 2.4.1 获取或者创建环境,若是有指定环境，则返回指定的ConfigurableEnvironment
+                                    // 若是web环境，则使用StandardServletEnvironment,它用于基于server相关的web应用，所有web相关(Servlet相关)Application类默认初始化一个实例。
+                               // 2.4.2 配置环境
+                               // 2.4.3 创建ApplicationContext
+                               // 2.4.4 加载bean到ApplicationContext
+                               // 2.4.5 刷新ApplicationContext
+                afterRefresh(context, applicationArguments);
+                listeners.finished(context, null);
+                stopWatch.stop();
+                if (this.logStartupInfo) {
+                    new StartupInfoLogger(this.mainApplicationClass)
+                            .logStarted(getApplicationLog(), stopWatch);
+                }
+                return context;
+            }
+            catch (Throwable ex) {
+                handleRunFailure(context, listeners, ex);
+                throw new IllegalStateException(ex);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
