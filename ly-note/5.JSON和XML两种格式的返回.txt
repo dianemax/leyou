@@ -1,0 +1,130 @@
+因为加了@RestController注解，这个注解集成了@RequestMapping和@ResponseBody这两个注解，
+而@ResponseBody这个注解可以将响应内容以json格式返回，因此默认返回格式是json
+
+------------------------------------------------------------------------------------------------------------
+
+对pom的配置是这样的，如果加入了：
+
+    <!--
+        Data format extension for Jackson (http://jackson.codehaus.org) to offer alternative support for serializing POJOs as XML
+        and deserializing XML as pojos. Support implemented on top of Stax API (javax.xml.stream),
+        by implementing core Jackson Streaming API types like JsonGenerator, JsonParser and JsonFactory.
+        Some data-binding types overridden as well (ObjectMapper sub-classed as XmlMapper).
+        Jackson的数据格式扩展，为将POJO序列化为XML并将XML反序列化为pojos提供替代支持
+    -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.dataformat</groupId>
+        <artifactId>jackson-dataformat-xml</artifactId>
+    </dependency>
+
+会引入jason2xml相关的converter.如果没有相关的xml的pom时。所有的converters有8个。
+能够和返回的object相关的只有一个，就是MappingJackson2HttpmessageConverter.
+当存在 此pom的时候，对应的converters有8个，能够和返回的object相关的除了MappingJackson2HttpmessageConverter还有MappingJackson2XmlHttpMessageConverter。
+而且，MappingJackson2XmlHttpMessageConverter在converters的list排序还是在MappingJackson2HttpmessageConverter之前。
+
+-------------------------------------------------------------------------------------------------------------
+
+相关选择哪种converter来序列化返回object?
+
+    org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(T, MethodParameter, ServletServerHttpRequest, ServletServerHttpResponse)
+
+    中有这么一句：List<MediaType> producibleMediaTypes = getProducibleMediaTypes(request, valueType, declaredType);
+    该方法可以确认哪些messageConverter是和返回的content-type可以相容，序列化对应的返回值的。
+
+    json:
+        当没有引入xml-dataformat对应的pom时，只有MappingJackson2HttpmessageConverter和返回的value对象相适应，因此就返回成了json。
+
+    xml:
+        当存在MappingJackson2XmlHttpMessageConverter与MappingJackson2HttpmessageConverter两种converter的时候。
+        两者都可以序列化object。但是因为MappingJackson2XmlHttpMessageConverter在converter list里面的排序先于
+        MappingJackson2HttpmessageConverter。因此对于异常，首选会选中MappingJackson2XmlHttpMessageConverter进行异常对象的序列化。
+        因此导致引入xml相关的pom配置后，异常的response返回就都是xml形式了。
+
+-----------------------------------------------------------------------------------------------------------------------
+
+有时项目需求两种返回格式，这时候我们只要加上jackson xml的依赖就可以了
+
+    <!--
+        Functionality to handle XML input/output for JAX-RS implementations (like Jersey and RESTeasy)
+        using standard Jackson data binding.
+        使用标准Jackson数据绑定处理JAX-RS实现（如Jersey和RESTeasy）的XML输入/输出的功能。
+    -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.jaxrs</groupId>
+      <artifactId>jackson-jaxrs-xml-provider</artifactId>
+    </dependency>
+
+    返回json：
+        @GetMapping(value = "/user/{id}") 在访问时通过后缀来规定返回格式：http://localhost:8010/user/1.json
+        或者
+        @GetMapping(value = "/user/{id}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    返回xml：
+        @GetMapping(value = "/user/{id}") 在访问时通过后缀来规定返回格式：http://localhost:8010/user/1.xml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b55b8a1f-c913-4d4a-bef1-1691e64d85d4" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt" afterPath="$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt" />
-      <change beforePath="$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot" afterPath="$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot" />
-      <change beforePath="$PROJECT_DIR$/ly-note/maven的三种项目打包方式——jar，war，pom的区别.txt" afterPath="$PROJECT_DIR$/ly-note/3.maven的三种项目打包方式——jar，war，pom的区别.txt" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Category.java" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Category.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,24 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LyItemApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/LyItemApplication.java">
+      <file leaf-file-name="5.JSON和XML两种格式的返回.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-note/5.JSON和XML两种格式的返回.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3.maven的三种项目打包方式——jar，war，pom的区别.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-note/3.maven的三种项目打包方式——jar，war，pom的区别.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="-180">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -84,28 +68,48 @@
       <file leaf-file-name="2.SpringCloud与SpringBoot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.restfull风格的特点.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.SpringBoot的启动是由SpringApplication.run，那么它到底经历了什么？" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ly-note/4.SpringBoot的启动是由SpringApplication.run，那么它到底经历了什么？">
+      <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="432">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.JPA（Java Persistence API）持久化API .txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ly-note/6.JPA（Java Persistence API）持久化API .txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -152,9 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/StockMapper.java" />
-        <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/PayConfig.java" />
-        <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/PayConfiguration.java" />
         <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/WXPayConfiguration.java" />
         <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/config/MvcConfig.java" />
         <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/web/NotifyController.java" />
@@ -184,7 +185,6 @@
         <option value="$PROJECT_DIR$/ly-user/ly-user-interface/pom.xml" />
         <option value="$PROJECT_DIR$/ly-auth-center/ly-auth-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-cart/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-order/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-page/src/main/resources/application.yml" />
@@ -203,6 +203,10 @@
         <option value="$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot" />
         <option value="$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt" />
         <option value="$PROJECT_DIR$/ly-note/4.SpringBoot的启动是由SpringApplication.run，那么它到底经历了什么？" />
+        <option value="$PROJECT_DIR$/ly-note/5.JSON和XML两种格式的返回.txt" />
+        <option value="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Category.java" />
+        <option value="$PROJECT_DIR$/ly-note/6.JPA（Java Persistence API）持久化API .txt" />
       </list>
     </option>
   </component>
@@ -293,9 +297,9 @@
     <option name="skipTests" value="true" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1349" />
-    <option name="y" value="-11" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-2" />
+    <option name="y" value="16" />
     <option name="width" value="1364" />
     <option name="height" value="740" />
   </component>
@@ -336,8 +340,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,88 +350,25 @@
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -443,8 +382,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -517,157 +458,7 @@
     </option>
     <option name="contentProportion" value="0.20788254" />
   </component>
-  <component name="RunManager" selected="JUnit.GoodsRepositoryTest.loadData">
-    <configuration name="GoodsRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.leyou.search.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ly-search" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.leyou.search.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.leyou.search.repository.GoodsRepositoryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="GoodsRepositoryTest.loadData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.leyou.search.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ly-search" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.leyou.search.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.leyou.search.repository.GoodsRepositoryTest" />
-      <option name="METHOD_NAME" value="loadData" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="GoodsRepositoryTest.testCreateIndex" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.leyou.search.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ly-search" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.leyou.search.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.leyou.search.repository.GoodsRepositoryTest" />
-      <option name="METHOD_NAME" value="testCreateIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="JwtTest.testGenerateToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.leyou.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ly-auth-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.leyou" />
-      <option name="MAIN_CLASS_NAME" value="com.leyou.JwtTest" />
-      <option name="METHOD_NAME" value="testGenerateToken" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="JwtTest.testParseToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.leyou.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ly-auth-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.leyou" />
-      <option name="MAIN_CLASS_NAME" value="com.leyou.JwtTest" />
-      <option name="METHOD_NAME" value="testParseToken" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="JwtTest.testRsa" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.leyou.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ly-auth-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.leyou" />
-      <option name="MAIN_CLASS_NAME" value="com.leyou.JwtTest" />
-      <option name="METHOD_NAME" value="testRsa" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.LyRegistry">
     <configuration name="LyAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyAuthApplication" />
@@ -765,33 +556,19 @@
       <module name="ly-user-service" />
       <envs />
     </configuration>
-    <list size="17">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GoodsRepositoryTest.testCreateIndex" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.LyRegistry" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.LyGateway" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.LyItemApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.LyUploadApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.LySearchApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.LyPageApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.LyUserService" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.LySmsApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.LyAuthApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.LyCartApplication" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.LyOrderApplication" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.JwtTest.testRsa" />
-      <item index="13" class="java.lang.String" itemvalue="JUnit.JwtTest.testGenerateToken" />
-      <item index="14" class="java.lang.String" itemvalue="JUnit.JwtTest.testParseToken" />
-      <item index="15" class="java.lang.String" itemvalue="JUnit.GoodsRepositoryTest" />
-      <item index="16" class="java.lang.String" itemvalue="JUnit.GoodsRepositoryTest.loadData" />
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.LyRegistry" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.LyGateway" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.LyItemApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.LyUploadApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.LySearchApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.LyPageApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.LyUserService" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.LySmsApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.LyAuthApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.LyCartApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.LyOrderApplication" />
     </list>
-    <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GoodsRepositoryTest.loadData" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GoodsRepositoryTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.JwtTest.testParseToken" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.JwtTest.testGenerateToken" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -872,7 +649,9 @@
       <workItem from="1558008091270" duration="2747000" />
       <workItem from="1558057633683" duration="1224000" />
       <workItem from="1558144061920" duration="16931000" />
-      <workItem from="1558267061912" duration="4660000" />
+      <workItem from="1558267061912" duration="5804000" />
+      <workItem from="1558315046235" duration="4417000" />
+      <workItem from="1558356396913" duration="5322000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1557734582241</created>
@@ -917,7 +696,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="584804000" />
+    <option name="totallyTimeSpent" value="595687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -929,7 +708,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1374" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -947,12 +726,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1961102" sideWeight="0.46066564" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1961102" sideWeight="0.46066564" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5153971" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2382496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34304208" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473525" sideWeight="0.44554454" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549168" sideWeight="0.44554454" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28290468" sideWeight="0.55445546" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -971,6 +750,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1024,34 +813,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3492">
-          <caret line="215" column="21" lean-forward="false" selection-start-line="215" selection-start-column="21" selection-end-line="215" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1119,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1314">
           <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,14 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-registry/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1248,15 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,13 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/java/com/leyou/gateway/LyGateway.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1301,30 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="22" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="58" column="15" lean-forward="false" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,106 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding>
-            <marker date="1552041654000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1552041654000" expanded="false" signature="148:2679" ph="..." />
-            <marker date="1552041654000" expanded="false" signature="4777:4788" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="4831:4837" ph=" }" />
-            <marker date="1552041654000" expanded="true" signature="4924:5746" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="5806:6491" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="6543:7138" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="7202:9143" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="9284:9988" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="10205:11012" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="11086:11326" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="11373:11503" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="11578:11813" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="11888:11964" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="12082:12472" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="12630:13384" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="13447:13722" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="13816:13932" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="14030:14953" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="15044:15316" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="15396:15677" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="15759:15996" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="16066:16646" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="16720:17788" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="17879:18507" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="18586:19066" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="19118:19260" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="19343:19973" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="20013:20126" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="20198:20834" ph="{...}" />
-            <marker date="1552041654000" expanded="false" signature="20881:20892" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="20919:20925" ph=" }" />
-            <marker date="1552041654000" expanded="true" signature="20967:21094" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="21185:21583" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="21698:21765" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="21833:21991" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="22092:22099" ph="{}" />
-            <marker date="1552041654000" expanded="true" signature="22185:22879" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="22962:23148" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="23231:23433" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="23631:24219" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="24331:24943" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="25009:25197" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="25292:25727" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="25831:26065" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="26175:26568" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="26649:26915" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="26980:27100" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="27157:27331" ph="{...}" />
-            <marker date="1552041654000" expanded="false" signature="27378:27389" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="27422:27428" ph=" }" />
-            <marker date="1552041654000" expanded="true" signature="27501:27566" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="27572:27590" ph="/**...*/" />
-            <marker date="1552041654000" expanded="false" signature="27644:27655" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="27716:27722" ph=" }" />
-            <marker date="1552041654000" expanded="false" signature="27777:27788" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="27819:27825" ph=" }" />
-            <marker date="1552041654000" expanded="true" signature="27831:27849" ph="/**...*/" />
-            <marker date="1552041654000" expanded="true" signature="27924:28036" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="28115:28259" ph="{...}" />
-            <marker date="1552041654000" expanded="false" signature="28306:28317" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="28342:28348" ph=" }" />
-            <marker date="1552041654000" expanded="true" signature="28420:28485" ph="{...}" />
-            <marker date="1552041654000" expanded="false" signature="28527:28538" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="28559:28565" ph=" }" />
-            <marker date="1552041654000" expanded="false" signature="28613:28624" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="28653:28659" ph=" }" />
-            <marker date="1552041654000" expanded="false" signature="28718:28729" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="28766:28772" ph=" }" />
-            <marker date="1552041654000" expanded="true" signature="28852:28925" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="29003:29062" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="29131:29437" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="29497:29582" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="29658:29717" ph="{...}" />
-            <marker date="1552041654000" expanded="false" signature="29786:29797" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="29828:29834" ph=" }" />
-            <marker date="1552041654000" expanded="true" signature="29917:29986" ph="{...}" />
-            <marker date="1552041654000" expanded="false" signature="30023:30034" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="30054:30060" ph=" }" />
-            <marker date="1552041654000" expanded="true" signature="30110:30229" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="30270:30621" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="30688:30816" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="30934:31149" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="31229:31422" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="31525:31625" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="31706:31776" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="31845:31912" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="31999:32090" ph="{...}" />
-            <marker date="1552041654000" expanded="false" signature="32154:32165" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="32213:32219" ph=" }" />
-            <marker date="1552041654000" expanded="false" signature="32274:32285" ph=" { " />
-            <marker date="1552041654000" expanded="false" signature="32333:32339" ph=" }" />
-            <marker date="1552041654000" expanded="true" signature="32434:32495" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="32592:32665" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="32727:32767" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="32865:33716" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="33776:33984" ph="{...}" />
-            <marker date="1552041654000" expanded="true" signature="34065:34243" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1464,33 +1075,9 @@
         <state relative-caret-position="252">
           <caret line="17" column="5" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-note/3.maven的三种项目打包方式——jar，war，pom的区别.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1498,17 +1085,115 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="1191" column="29" lean-forward="false" selection-start-line="1191" selection-start-column="19" selection-end-line="1191" selection-end-column="29" />
-          <folding>
-            <element signature="e#9666#9667#0" expanded="true" />
-            <element signature="e#9699#9700#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-note/1.restfull风格的特点.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-sms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ly-note/4.SpringBoot的启动是由SpringApplication.run，那么它到底经历了什么？">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="900">
+          <caret line="71" column="31" lean-forward="false" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="61" column="33" lean-forward="false" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-registry/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-note/5.JSON和XML两种格式的返回.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-note/2.SpringCloud与SpringBoot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-note/3.maven的三种项目打包方式——jar，war，pom的区别.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-note/6.JPA（Java Persistence API）持久化API .txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding />
         </state>
       </provider>
