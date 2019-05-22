@@ -16,7 +16,7 @@ import java.util.List;
  * Description:
  *
  * @Date:2019/3/16 21:50
- * @Author:dianemax@163.com
+ * @Author:yuqin_su@163.com
  */
 
 @Service
@@ -35,6 +35,7 @@ public class CategoryService {
 
         Category t = new Category();
         t.setParentId(pid);
+        //查询的对象需要自己new出来，并将这个对象中的非空字段作为查询条件
         List<Category> list = categoryMapper.select(t);
 
         if(CollectionUtils.isEmpty(list)){

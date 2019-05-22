@@ -15,7 +15,7 @@ import java.util.List;
  * Description:
  *
  * @Date:2019/3/16 21:52
- * @Author:dianemax@163.com
+ * @Author:yuqin_su@163.com
  */
 @RestController
 @RequestMapping("category")
@@ -36,6 +36,7 @@ public class CategoryController {
     //@GetMapping是一个组合注解，是@RequestMapping(method = RequestMethod.GET)的缩写。
     public ResponseEntity<List<Category>> queryCategoryListByPid(@RequestParam("pid")Long pid){
         return ResponseEntity.ok(categoryService.queryCategoryListByPid(pid));
+        //ResponseEntity，这个的作用就是将toString的字符数据转化为json的数据格式
     }
 
     /**

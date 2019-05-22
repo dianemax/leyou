@@ -15,5 +15,4 @@ public class Brand {
     private String name;
     private Character letter;
     private String image;
-
 }
