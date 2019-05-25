@@ -33,15 +33,19 @@ public class BrandService {
      */
     public PageResult<Brand> queryBrandByPage(Integer page, Integer rows, String sortBy, boolean desc, String key) {
         //分页
+        //会利用`mybatis`的拦截器对接下来的`sql`语句进行拦截，自动在该sql后面**动态拼接sql语句**，如分页方法中需要拼接`limit`语句
         PageHelper.startPage(page,rows);
 
         //过滤: 过滤条件(模糊查询+准确查询(首字母))
+        //将`Brand.class`字节码文件传给Example，通过 反射 得到实体类中的表的名字，主键等信息
+        //动态拼接sql语句
         Example example = new Example(Brand.class);
         if(StringUtils.isNotBlank(key)){
             example.createCriteria().orLike("name","%"+key+"%").orEqualTo("letter",key.toUpperCase());
         }
 
         //排序
+        //ORDER BY关键字是可以自动生成的，重点是后面的 根据什么排序 sql语句不知道，所以要写一个orderByClause——排序子句
         if(StringUtils.isNotBlank(sortBy)){
             String orderByClause = sortBy + (desc ? " DESC" : " ASC");
             example.setOrderByClause(orderByClause);
