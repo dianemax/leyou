@@ -78,7 +78,7 @@ public class PageService {
         context.setVariables(loadModel(spuId));
 
         // 输出流(流可以自动释放)
-        File dest = new File("D:\\javacode\\idea\\upload", spuId + ".html");
+        File dest = new File("H:\\javacode\\idea\\upload", spuId + ".html");
 
         if(dest.exists()){
             dest.delete();
@@ -95,7 +95,7 @@ public class PageService {
 
     public void deleteHtml(Long spuId) {
         // 输出流(流可以自动释放)
-        File dest = new File("D:\\javacode\\idea\\upload", spuId + ".html");
+        File dest = new File("H:\\javacode\\idea\\upload", spuId + ".html");
         if(dest.exists()){
             dest.delete();
         }

@@ -193,7 +193,6 @@ public class GoodsService {
 
         //发送mq消息
         amqpTemplate.convertAndSend("item.update",spu.getId());
-
     }
 
     public Spu querySpuById(Long id) {
