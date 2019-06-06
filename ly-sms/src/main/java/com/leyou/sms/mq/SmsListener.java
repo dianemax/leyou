@@ -44,11 +44,10 @@ public class SmsListener {
         if(StringUtils.isBlank(phone)){
             return;
         }
-        smsUtils.sendSms(phone,prop.getSignName(),prop.getVerifyCodeTemplate(), JsonUtils.serialize(msg));
+        smsUtils.sendSms(phone,prop.getSignName(),prop.getVerifyCodeTemplate(), JsonUtils.serialize(msg));//msg.remove("phone");之后只剩下验证码
 
         // 记录短信发送日志
         log.info("[短信服务] 发送短信验证码，手机号：{}", phone);
     }
-
 
 }

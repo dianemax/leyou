@@ -45,7 +45,7 @@ public class UserService {
             default:
                 throw new LyException(ExceptionEnum.INVALID_USER_DATA_TYPE);
         }
-        return userMapper.selectCount(record) == 0;
+        return userMapper.selectCount(record) == 0;//为0说明该手机号或者用户名可用，因为用户名或者手机号必须唯一
     }
 
     // 发送短信验证码

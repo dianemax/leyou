@@ -26,4 +26,4 @@ eureka:
 #    lease-renewal-interval-in-seconds: 3
 #    lease-expiration-duration-in-seconds: 10
 mybatis:
-  type-aliases-package: com.leyou.user.pojo
+  type-aliases-package: com.leyou.user.pojo #指定POJO扫描包来让mybatis自动扫描到自定义POJO，interface中的pojo

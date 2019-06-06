@@ -18,6 +18,7 @@
             <artifactId>jjwt</artifactId>
             <version>0.9.0</version>
         </dependency>
+        <!--开源的时间/日期库-->
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
