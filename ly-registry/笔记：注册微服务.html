@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>乐优商城：笔记（二）：注册微服务：LyRegister</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li>
+<ul>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <p></p><div class="toc"><h3>注册微服务：</h3><ul><li><a href="#1_7">1、工程创建</a></li><ul><li><a href="#11__8">1.1 添加依赖</a></li><li><a href="#12__42">1.2 编写启动类</a></li><li><a href="#13__70">1.3 配置文件</a></li></ul><li><a href="#2Eureka_84">2、Eureka注册中心</a></li><ul><li><a href="#21_eureka_85">2.1 eureka</a></li><li><a href="#22_Ribbon_113">2.2 Ribbon</a></li><li><a href="#23_Hystrix_147">2.3 Hystrix</a></li><li><a href="#24_Feign_174">2.4 Feign</a></li><li><a href="#25_Zuul_193">2.5 Zuul</a></li></ul></ul></div><p></p>
+<blockquote>
+<p><strong>为什么要用eureka？</strong><br>
+1 传统的http客户端编码方式将URL地址硬编码进去，不利于修改和维护<br>
+2 服务间彼此运行状态不清楚，一个服务器宕机了，另一个没有及时的应对措施<br>
+3 无法实现负载均衡</p>
+</blockquote>
+<h1><a id="1_7"></a>1、工程创建</h1>
+<h2><a id="11__8"></a>1.1 添加依赖</h2>
+<pre><code class="prism language-xml"><span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>project</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://maven.apache.org/POM/4.0.0<span class="token punctuation">"</span></span>
+         <span class="token attr-name"><span class="token namespace">xmlns:</span>xsi</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.w3.org/2001/XMLSchema-instance<span class="token punctuation">"</span></span>
+         <span class="token attr-name"><span class="token namespace">xsi:</span>schemaLocation</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>parent</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>leyou<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.leyou.parent<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>1.0.0-SNAPSHOT<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>parent</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>modelVersion</span><span class="token punctuation">&gt;</span></span>4.0.0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>modelVersion</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.leyou.common<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>ly-registry<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependencies</span><span class="token punctuation">&gt;</span></span>
+    	<span class="token comment">&lt;!-- Eureka客户端：在服务上添加Eureka的客户端依赖，客户端代码会自动把服务注册到EurekaServer中 --&gt;</span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.cloud<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-cloud-starter-netflix-eureka-server<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependencies</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>build</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>plugins</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>plugin</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-maven-plugin<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>plugin</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>plugins</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>build</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>project</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<h2><a id="12__42"></a>1.2 编写启动类</h2>
+<pre><code class="prism language-java"><span class="token annotation punctuation">@EnableEurekaServer</span> <span class="token comment">// 声明这个应用是一个EurekaServer</span>
+<span class="token annotation punctuation">@SpringBootApplication</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">LyRegistry</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        SpringApplication<span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span>LyRegistry<span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><strong>相关注解：</strong></p>
+<ul>
+<li>
+<p><strong>@EnableEurekaServer</strong><br>
+以下原理图摘自：<a href="https://www.jianshu.com/p/3a3a1a5891ec">源码剖析 @EnableEurekaServer注解</a><br>
+<img src="https://img-blog.csdnimg.cn/20190512173208315.png" alt="在这里插入图片描述"></p>
+</li>
+<li>
+<p><strong>@SpringBootApplication</strong><br>
+<code>@SpringBootApplication = (默认属性)@Configuration + @EnableAutoConfiguration + @ComponentScan。</code><br>
+<a href="https://www.cnblogs.com/MaxElephant/p/8108140.html">详解@SpringBootApplication</a></p>
+</li>
+<li>
+<p><strong>@EnableDiscoveryClient/@EnableEurekaClient</strong><br>
+如果使用eureka注册中心，可以使用<code>@EnableEurekaClient</code>注解<br>
+如果使用其他的注册中心，可以使用<code>@EnableDiscoveryClient</code>注解</p>
+</li>
+</ul>
+<h2><a id="13__70"></a>1.3 配置文件</h2>
+<pre><code class="prism language-yml"><span class="token key atrule">server</span><span class="token punctuation">:</span>
+  <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">10086</span>
+<span class="token key atrule">spring</span><span class="token punctuation">:</span>
+  <span class="token key atrule">application</span><span class="token punctuation">:</span>
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> ly<span class="token punctuation">-</span>registry <span class="token comment">#spring.application.name,这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name</span>
+<span class="token key atrule">eureka</span><span class="token punctuation">:</span>
+  <span class="token key atrule">client</span><span class="token punctuation">:</span>
+    <span class="token key atrule">service-url</span><span class="token punctuation">:</span>
+      <span class="token key atrule">defaultZone</span><span class="token punctuation">:</span> http<span class="token punctuation">:</span>//127.0.0.1<span class="token punctuation">:</span>10086/eureka
+</code></pre>
+<h1><a id="2Eureka_84"></a>2、Eureka注册中心</h1>
+<h2><a id="21_eureka_85"></a>2.1 eureka</h2>
+<blockquote>
+<p><strong>eureka做什么</strong></p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20190516205927746.png" alt="在这里插入图片描述"></p>
+<ul>
+<li>Eureka：就是服务注册中心（可以是一个集群），对外暴露自己的地址</li>
+<li>提供者：启动后向Eureka注册自己信息（地址，提供什么服务）</li>
+<li>消费者：向Eureka订阅服务，Eureka会将对应服务的所有提供者地址列表发送给消费者，并且定期更新</li>
+<li>心跳(续约)：提供者定期通过http方式向Eureka刷新自己的状态</li>
+</ul>
+<p>注册到eureka的服务：<br>
+<img src="https://img-blog.csdnimg.cn/20190516210042854.png" alt="在这里插入图片描述"><br>
+<strong>eureka的三个核心角色：</strong></p>
+<ul>
+<li>
+<p>服务注册中心</p>
+<p>Eureka的服务端应用，提供服务注册和发现功能</p>
+</li>
+<li>
+<p>服务提供者</p>
+<p>提供服务的应用，可以是SpringBoot应用，也可以是其它任意技术实现，只要对外提供的是Rest风格服务即可。</p>
+</li>
+<li>
+<p>服务消费者</p>
+<p>消费应用从注册中心获取服务列表，从而得知每个服务方的信息，知道去哪里调用服务方。</p>
+<hr>
+</li>
+</ul>
+<h2><a id="22_Ribbon_113"></a>2.2 Ribbon</h2>
+<p>实际生产中，service服务往往会搭建集群，，此时我们的eureka中就有多个服务注册，并且eureka中已经帮我们实现了负载均衡组件：<strong>Ribbon</strong>，访问时默认的负载均衡算法是<strong>轮询</strong>。</p>
+<p><strong>修改均衡算法：</strong></p>
+<pre><code>serviceName:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #随机
+</code></pre>
+<p><strong>重试机制：</strong></p>
+<p>Eureka为了实现更高的服务可用性，牺牲了一定的一致性，极端情况下它宁愿接收故障实例也不愿丢掉健康实例。</p>
+<ul>
+<li>重试的实现：</li>
+</ul>
+<pre><code class="prism language-yml"><span class="token key atrule">spring</span><span class="token punctuation">:</span>
+  <span class="token key atrule">cloud</span><span class="token punctuation">:</span>
+    <span class="token key atrule">loadbalancer</span><span class="token punctuation">:</span>
+      <span class="token key atrule">retry</span><span class="token punctuation">:</span>
+        <span class="token key atrule">enabled</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment"># 开启Spring Cloud的重试功能</span>
+<span class="token key atrule">serviceName</span><span class="token punctuation">:</span>
+  <span class="token key atrule">ribbon</span><span class="token punctuation">:</span>
+    <span class="token key atrule">ConnectTimeout</span><span class="token punctuation">:</span> <span class="token number">250 </span><span class="token comment"># Ribbon的连接超时时间</span>
+    <span class="token key atrule">ReadTimeout</span><span class="token punctuation">:</span> <span class="token number">1000 </span><span class="token comment"># Ribbon的数据读取超时时间</span>
+    <span class="token key atrule">OkToRetryOnAllOperations</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment"># 是否对所有操作都进行重试</span>
+    <span class="token key atrule">MaxAutoRetriesNextServer</span><span class="token punctuation">:</span> <span class="token number">1 </span><span class="token comment"># 切换实例的重试次数</span>
+    <span class="token key atrule">MaxAutoRetries</span><span class="token punctuation">:</span> <span class="token number">1 </span><span class="token comment"># 对当前实例的重试次数</span>
+</code></pre>
+<p>当访问到某个服务超时后，它会再次尝试访问下一个服务实例，如果不行就再换一个实例，如果不行，则返回失败。切换次数取决于<code>MaxAutoRetriesNextServer</code>参数的值。</p>
+<hr>
+<h2><a id="23_Hystrix_147"></a>2.3 Hystrix</h2>
+<blockquote>
+<p>Hystrix，熔断器，是Netflix开源的一个延迟和容错库，用于隔离访问远程服务、第三方库，防止出现级联失败。</p>
+</blockquote>
+<p>分布式架构通常有很多依赖，当其中一个服务失败时，这个失败的行为会影响到这个服务的调用者，最终导致一个接一个的错误发生。</p>
+<ul>
+<li>工作原理<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;类似于家庭电路的保险丝，当电路发生短路时立刻熔断电路，避免发生灾难。在分布式系统中，服务的调用方可以自己判断某些服务反应慢或者存在大量超时的情况下，从而<strong>主动熔断</strong>。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电路不会自动重新连接，但是Hystrix却可以实现<strong>弹性容错</strong>，当情况好转时，自动重新连接。</li>
+</ul>
+<hr>
+<p><strong>熔断机制与重试机制:</strong></p>
+<p><font size="5" color="green">Ribbon的超时时间一定要小于Hystix的超时时间 !</font></p>
+<p>如果不考虑上述时间，虽然熔断可以实现，但是重试机制不会生效，服务没有合理被利用。</p>
+<pre><code class="prism language-yml"><span class="token key atrule">hystrix</span><span class="token punctuation">:</span>
+  <span class="token key atrule">command</span><span class="token punctuation">:</span>
+  	<span class="token key atrule">default</span><span class="token punctuation">:</span>
+        <span class="token key atrule">execution</span><span class="token punctuation">:</span>
+          <span class="token key atrule">isolation</span><span class="token punctuation">:</span>
+            <span class="token key atrule">thread</span><span class="token punctuation">:</span>
+              <span class="token key atrule">timeoutInMillisecond</span><span class="token punctuation">:</span> <span class="token number">6000 </span><span class="token comment"># 设置hystrix的超时时间为6000ms</span>
+</code></pre>
+<hr>
+<h2><a id="24_Feign_174"></a>2.4 Feign</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在后续的代码完善过程中，某些代码肯定会被重复的书写，例如查询用户的代码，<strong>Feign</strong>可以把Rest的请求进行隐藏，伪装成类似SpringMVC的Controller一样。你<strong>不用再自己拼接url，拼接参数等等操作，一切都交给Feign去做</strong>。</p>
+<p>示例：</p>
+<pre><code class="prism language-java"><span class="token annotation punctuation">@FeignClient</span><span class="token punctuation">(</span><span class="token string">"user-service"</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">UserFeignClient</span> <span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@GetMapping</span><span class="token punctuation">(</span><span class="token string">"/user/{id}"</span><span class="token punctuation">)</span>
+    User <span class="token function">queryUserById</span><span class="token punctuation">(</span><span class="token annotation punctuation">@PathVariable</span><span class="token punctuation">(</span><span class="token string">"id"</span><span class="token punctuation">)</span> Long id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li>首先这是一个接口，Feign会通过动态代理，帮我们生成实现类。这点跟mybatis的mapper很像</li>
+<li><code>@FeignClient</code>，声明这是一个Feign客户端，类似<code>@Mapper</code>注解。同时通过<code>value</code>属性指定服务名称</li>
+<li>接口中的定义方法，完全采用SpringMVC的注解，Feign会根据注解帮我们生成URL，并访问获取结果</li>
+</ul>
+<hr>
+<h2><a id="25_Zuul_193"></a>2.5 Zuul</h2>
+<p>到目前为止，我们服务的地址是直接暴露的，这样是否合理？</p>
+<ul>
+<li>首先，破坏了服务无状态特点。
+<ul>
+<li>为了保证对外服务的安全性，我们需要实现对服务访问的权限控制，而开放服务的权限控制机制将会贯穿并污染整个开放服务的业务逻辑，这会带来的最直接问题是，破坏了服务集群中REST API无状态的特点。</li>
+<li>从具体开发和测试的角度来说，在工作中除了要考虑实际的业务逻辑之外，还需要额外考虑对接口访问的控制处理。</li>
+</ul>
+</li>
+<li>其次，无法直接复用既有接口。
+<ul>
+<li>当我们需要对一个即有的集群内访问接口，实现外部服务访问时，我们不得不通过在原有接口上增加校验逻辑，或增加一个代理调用来实现权限控制，无法直接复用原有的接口。</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了解决上面这些问题，我们需要将<strong>权限控制</strong>这样的东西从我们的服务单元中抽离出去，而最适合这些逻辑的地方就是<em>处于对外访问最前端的地方</em>，我们需要一个更强大一些的均衡负载器的 <strong>服务网关</strong>。zuul的核心是一系列的过滤器，可以完成如下功能：</p>
+<ul>
+<li>身份认证</li>
+<li>动态路由</li>
+<li>压力测试</li>
+<li>负载分配</li>
+<li>…<br>
+<img src="https://img-blog.csdnimg.cn/20190516215300240.png" alt="在这里插入图片描述"><br>
+映射配置：<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为已经有了Eureka客户端，我们可以从Eureka获取服务的地址信息，因此映射时无需指定IP地址，而是通过服务名称来访问，而且Zuul已经集成了Ribbon的负载均衡功能。</li>
+</ul>
+<pre><code class="prism language-yml"><span class="token key atrule">zuul</span><span class="token punctuation">:</span>
+  <span class="token key atrule">routes</span><span class="token punctuation">:</span>
+    <span class="token key atrule">user-service</span><span class="token punctuation">:</span> <span class="token comment"># 这里是路由id，随意写</span>
+      <span class="token key atrule">path</span><span class="token punctuation">:</span> /user<span class="token punctuation">-</span>service/** <span class="token comment"># 这里是映射路径</span>
+      <span class="token key atrule">serviceId</span><span class="token punctuation">:</span> user<span class="token punctuation">-</span>service <span class="token comment"># 指定服务名称</span>
+</code></pre>
+<p>简化：</p>
+<pre><code class="prism language-yml"><span class="token key atrule">zuul</span><span class="token punctuation">:</span>
+  <span class="token key atrule">routes</span><span class="token punctuation">:</span>
+    <span class="token key atrule">user-service</span><span class="token punctuation">:</span> /user<span class="token punctuation">-</span>service/** <span class="token comment"># 这里是映射路径</span>
+</code></pre>
+<p><strong>zuul过滤器：</strong> ZuulFilter<br>
+其中重要的四个方法：</p>
+<pre><code class="prism language-java"><span class="token keyword">public</span> <span class="token keyword">abstract</span> ZuulFilter <span class="token keyword">implements</span> <span class="token class-name">IZuulFilter</span><span class="token punctuation">{</span>
+
+    <span class="token keyword">abstract</span> <span class="token keyword">public</span> String <span class="token function">filterType</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">abstract</span> <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">filterOrder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">boolean</span> <span class="token function">shouldFilter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 来自IZuulFilter</span>
+
+    Object <span class="token function">run</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> ZuulException<span class="token punctuation">;</span><span class="token comment">// IZuulFilter</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<ul>
+<li><code>shouldFilter</code>：返回一个<code>Boolean</code>值，判断该过滤器是否需要执行。返回true执行，返回false不执行。</li>
+<li><code>run</code>：过滤器的具体业务逻辑。</li>
+<li><code>filterType</code>：返回字符串，代表<strong>过滤器的类型</strong>。包含以下4种：
+<ul>
+<li><code>pre</code>：请求在被路由之前执行</li>
+<li><code>routing</code>：在路由请求时调用</li>
+<li><code>post</code>：在routing和errror过滤器之后调用</li>
+<li><code>error</code>：处理请求时发生错误调用</li>
+</ul>
+</li>
+<li><code>filterOrder</code>：通过返回的int值来定义过滤器的执行顺序，数字越小优先级越高。</li>
+</ul>
+<p><strong>流程：</strong></p>
+<ul>
+<li>正常流程：
+<ul>
+<li>请求到达首先会经过pre类型过滤器，而后到达routing类型，进行路由，请求就到达真正的服务提供者，执行请求，返回结果后，会到达post过滤器。而后返回响应。</li>
+</ul>
+</li>
+<li>异常流程：
+<ul>
+<li>整个过程中，pre或者routing过滤器出现异常，都会直接进入error过滤器，再error处理完毕后，会将请求交给POST过滤器，最后返回给用户。</li>
+<li>如果是error过滤器自己出现异常，最终也会进入POST过滤器，而后返回。</li>
+<li>如果是POST过滤器出现异常，会跳转到error过滤器，但是与pre和routing不同的时，请求不会再到达POST过滤器了。</li>
+</ul>
+</li>
+</ul>
+<p><strong>使用场景：</strong></p>
+<ul>
+<li>请求鉴权：一般放在pre类型，如果发现没有访问权限，直接就拦截了</li>
+<li>异常处理：一般会在error类型和post类型过滤器中结合来处理。</li>
+<li>服务调用时长统计：pre和post结合使用。</li>
+</ul>
+<hr>
+<p><strong>最终：</strong></p>
+<ul>
+<li>使用Spring Cloud Netflix中的Eureka实现了服务注册中心以及服务注册与发现；</li>
+<li>服务间通过Ribbon或Feign实现服务的消费以及均衡负载；</li>
+<li>通过Spring Cloud Config实现了应用多环境的外部化配置以及版本管理；</li>
+<li>为了使得服务集群更为健壮，使用Hystrix的融断机制来避免在微服务架构中个别服务出现异常时引起的故障蔓延；</li>
+<li>一切对服务的请求都会经过Zuul这个网关，然后再由网关来实现 鉴权、动态路由等等操作，Zuul作为服务的统一入口。</li>
+</ul>
+
+    </div>
+  </div>
+</body>
+
+</html>
