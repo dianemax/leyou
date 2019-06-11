@@ -51,63 +51,7 @@
     <favorites_list name="leyou" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Redis.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ly-sms/笔记/Redis.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="522">
-                <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-                <folding>
-                  <marker date="1560244072848" expanded="true" signature="5805:5927" ph="..." />
-                  <marker date="1560244072848" expanded="true" signature="5971:6013" ph="spring: &lt;1 key&gt;" />
-                  <marker date="1560244072848" expanded="true" signature="5981:6013" ph="redis: &lt;1 key&gt;" />
-                  <marker date="1560244072848" expanded="true" signature="5998:6013" ph="192.168.124.128" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="笔记：短信微服务.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-sms/笔记/笔记：短信微服务.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                <folding>
-                  <marker date="1560244110939" expanded="true" signature="515:2484" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="699:838" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="975:2242" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="996:1155" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="1176:1339" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="1360:1500" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="1521:1684" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="1705:1845" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="1866:2055" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="2076:2222" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="2254:2473" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="2272:2460" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="2293:2441" ph="..." />
-                  <marker date="1560244110939" expanded="true" signature="3059:3070" ph=" { " />
-                  <marker date="1560244110939" expanded="true" signature="3116:3122" ph=" }" />
-                  <marker date="1560244110939" expanded="true" signature="3179:3228" ph="@{...}" />
-                  <marker date="1560244110939" expanded="true" signature="3444:3506" ph="@{...}" />
-                  <marker date="1560244110939" expanded="true" signature="3928:5164" ph="{...}" />
-                  <marker date="1560244110939" expanded="true" signature="5432:5501" ph="@{...}" />
-                  <marker date="1560244110939" expanded="true" signature="5629:5879" ph="@{...}" />
-                  <marker date="1560244110939" expanded="true" signature="5941:6312" ph="{...}" />
-                  <marker date="1560244110939" expanded="true" signature="6527:6596" ph="@{...}" />
-                  <marker date="1560244110939" expanded="true" signature="7127:9235" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ly-order/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-page/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-search/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-upload/src/main/resources/application.yml" />
@@ -202,6 +145,7 @@
         <option value="$PROJECT_DIR$/ly-page/笔记/优化：利用中间件技术RabbitMQ优化搜索微服务和页面微服务.md" />
         <option value="$PROJECT_DIR$/ly-sms/笔记/Redis.md" />
         <option value="$PROJECT_DIR$/ly-sms/笔记/笔记：短信微服务.md" />
+        <option value="$PROJECT_DIR$/ly-user/笔记：用户微服务.md" />
       </list>
     </option>
   </component>
@@ -314,6 +258,11 @@
               <item name="ly-sms" type="462c0819:PsiDirectoryNode" />
               <item name="笔记" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-user" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -366,11 +315,11 @@
       <recent name="com.leyou.gateway.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\javacode\idea\leyou\ly-user" />
       <recent name="H:\javacode\idea\leyou\ly-sms\笔记" />
       <recent name="H:\javacode\idea\leyou\ly-page\笔记" />
       <recent name="H:\javacode\idea\leyou\ly-search\笔记" />
       <recent name="H:\javacode\idea\leyou\ly-upload" />
-      <recent name="H:\javacode\idea\leyou\ly-item\笔记" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.leyou.order.dto" />
@@ -606,7 +555,7 @@
       <workItem from="1559784778763" duration="14080000" />
       <workItem from="1559873369826" duration="8584000" />
       <workItem from="1559975604706" duration="8059000" />
-      <workItem from="1560062075068" duration="25522000" />
+      <workItem from="1560062075068" duration="25811000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1557734582241</created>
@@ -651,7 +600,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="755378000" />
+    <option name="totallyTimeSpent" value="755667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,7 +613,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10048623" sideWeight="0.53933436" order="10" side_tool="true" content_ui="tabs" />
@@ -686,7 +634,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2382496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34304208" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18003026" sideWeight="0.41815236" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18003026" sideWeight="0.41815236" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28290468" sideWeight="0.55445546" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -760,13 +708,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ly-cart/src/main/java/com/leyou/cart/interceptor/UserInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-cart/src/main/java/com/leyou/cart/web/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -1524,6 +1465,28 @@
               <marker date="1560244072848" expanded="true" signature="5971:6013" ph="spring: &lt;1 key&gt;" />
               <marker date="1560244072848" expanded="true" signature="5981:6013" ph="redis: &lt;1 key&gt;" />
               <marker date="1560244072848" expanded="true" signature="5998:6013" ph="192.168.124.128" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-user/笔记：用户微服务.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="281">
+            <caret line="536" column="0" lean-forward="true" selection-start-line="536" selection-start-column="0" selection-end-line="536" selection-end-column="0" />
+            <folding>
+              <marker date="1560244400258" expanded="true" signature="4861:4943" ph="@{...}" />
+              <marker date="1560244400258" expanded="true" signature="5015:5026" ph=" { " />
+              <marker date="1560244400258" expanded="true" signature="5074:5080" ph=" }" />
+              <marker date="1560244400258" expanded="true" signature="5261:5320" ph="@{...}" />
+              <marker date="1560244400258" expanded="true" signature="10520:10630" ph="..." />
+              <marker date="1560244400258" expanded="true" signature="10668:10698" ph="@{...}" />
+              <marker date="1560244400258" expanded="true" signature="10723:10782" ph="@{...}" />
+              <marker date="1560244400258" expanded="true" signature="10809:10900" ph="@{...}" />
+              <marker date="1560244400258" expanded="true" signature="10941:11011" ph="@{...}" />
+              <marker date="1560244400258" expanded="true" signature="12070:12168" ph="{&quot;id&quot;: 6572312...}" />
             </folding>
           </first_editor>
           <second_editor />
