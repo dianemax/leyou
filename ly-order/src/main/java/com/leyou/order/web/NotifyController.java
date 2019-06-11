@@ -20,7 +20,7 @@ public class NotifyController {
      * 微信支付的成功回调
      * @return
      */
-    @PostMapping(value = "pay",produces = "application/xml")
+    @PostMapping(value = "pay",produces = "application/xml")//声明返回结果为xml类型
     public Map<String,String> hello(@RequestBody Map<String,String> result){//在pom文件中引入了xml解析器
 
         orderService.handleNotify(result);

@@ -132,7 +132,7 @@ public class OrderService {
             throw new LyException(ExceptionEnum.CREATE_ORDER_ERROR);
         }
 
-        // 4 减库存 -- 需要调用商品为服务，传递商品id和数量两个参数
+        // 4 减库存 -- 需要调用商品微服务，传递商品id和数量两个参数
         List<CartDTO> cartDTOS = orderDTO.getCarts();
         goodsClient.decreaseStock(cartDTOS);
 
