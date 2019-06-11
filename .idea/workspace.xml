@@ -52,83 +52,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="笔记：鉴权微服务——鉴权.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ly-auth-center/笔记/笔记：鉴权微服务——鉴权.md">
+      <file leaf-file-name="笔记：购物车微服务.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ly-cart/笔记：购物车微服务.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+              <first_editor relative-caret-position="-1440">
+                <caret line="409" column="0" lean-forward="true" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
                 <folding>
-                  <marker date="1560244888540" expanded="true" signature="412:543" ph="..." />
-                  <marker date="1560244888540" expanded="true" signature="556:693" ph="..." />
-                  <marker date="1560244888540" expanded="true" signature="731:780" ph="@{...}" />
-                  <marker date="1560244888540" expanded="true" signature="1003:1182" ph="{...}" />
-                  <marker date="1560244888540" expanded="true" signature="1341:1429" ph="@{...}" />
-                  <marker date="1560244888540" expanded="true" signature="1642:1653" ph=" { " />
-                  <marker date="1560244888540" expanded="true" signature="1685:1691" ph=" }" />
-                  <marker date="1560244888540" expanded="true" signature="1768:1779" ph=" { " />
-                  <marker date="1560244888540" expanded="true" signature="1834:1840" ph=" }" />
-                  <marker date="1560244888540" expanded="true" signature="1897:1908" ph=" { " />
-                  <marker date="1560244888540" expanded="true" signature="1919:1925" ph=" }" />
-                  <marker date="1560244888540" expanded="true" signature="1986:2560" ph="{...}" />
-                  <marker date="1560244888540" expanded="true" signature="3069:3121" ph="@{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="笔记：鉴权微服务——授权.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-auth-center/笔记/笔记：鉴权微服务——授权.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="252">
-                <caret line="611" column="0" lean-forward="false" selection-start-line="611" selection-start-column="0" selection-end-line="611" selection-end-column="0" />
-                <folding>
-                  <marker date="1560244888888" expanded="true" signature="404:1001" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="588:727" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="904:959" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="1135:1642" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="1319:1468" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="1792:3047" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="1976:2125" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="2309:3036" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="2330:2489" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="2510:2649" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="2670:2848" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="2869:3016" ph="..." />
-                  <marker date="1560244888888" expanded="true" signature="3359:3424" ph="@{...}" />
-                  <marker date="1560244888888" expanded="true" signature="4014:4136" ph="/**...*/" />
-                  <marker date="1560244888888" expanded="true" signature="4212:4298" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="4304:4426" ph="/**...*/" />
-                  <marker date="1560244888888" expanded="true" signature="4504:4591" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="4597:4695" ph="/**...*/" />
-                  <marker date="1560244888888" expanded="true" signature="4768:4945" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="4951:5049" ph="/**...*/" />
-                  <marker date="1560244888888" expanded="true" signature="5124:5304" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="5310:5547" ph="/**...*/" />
-                  <marker date="1560244888888" expanded="true" signature="5668:6225" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="6296:6367" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="6453:6617" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="6862:6906" ph="@{...}" />
-                  <marker date="1560244888888" expanded="true" signature="7146:7246" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="7290:7743" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="7950:8128" ph="/**...*/" />
-                  <marker date="1560244888888" expanded="true" signature="8246:8601" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="8607:8789" ph="/**...*/" />
-                  <marker date="1560244888888" expanded="true" signature="8903:9282" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="9288:9426" ph="/**...*/" />
-                  <marker date="1560244888888" expanded="true" signature="9505:9589" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="9595:9737" ph="/**...*/" />
-                  <marker date="1560244888888" expanded="true" signature="9830:9954" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="9960:10104" ph="/**...*/" />
-                  <marker date="1560244888888" expanded="true" signature="10201:10502" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="10508:10652" ph="/**...*/" />
-                  <marker date="1560244888888" expanded="true" signature="10746:11047" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="11610:11659" ph="@{...}" />
-                  <marker date="1560244888888" expanded="true" signature="12116:12710" ph="{...}" />
-                  <marker date="1560244888888" expanded="true" signature="14802:14951" ph="..." />
+                  <marker date="1560245100302" expanded="true" signature="371:511" ph="{...}" />
+                  <marker date="1560245100302" expanded="true" signature="553:578" ph="[...]" />
+                  <marker date="1560245100302" expanded="true" signature="3127:4668" ph="..." />
+                  <marker date="1560245100302" expanded="true" signature="3311:3450" ph="..." />
+                  <marker date="1560245100302" expanded="true" signature="3588:4657" ph="..." />
+                  <marker date="1560245100302" expanded="true" signature="3609:3748" ph="..." />
+                  <marker date="1560245100302" expanded="true" signature="3769:3928" ph="..." />
+                  <marker date="1560245100302" expanded="true" signature="3949:4096" ph="..." />
+                  <marker date="1560245100302" expanded="true" signature="4117:4263" ph="..." />
+                  <marker date="1560245100302" expanded="true" signature="4284:4453" ph="..." />
+                  <marker date="1560245100302" expanded="true" signature="4474:4637" ph="..." />
+                  <marker date="1560245100302" expanded="true" signature="5015:5080" ph="@{...}" />
+                  <marker date="1560245100302" expanded="true" signature="5156:5167" ph=" { " />
+                  <marker date="1560245100302" expanded="true" signature="5220:5226" ph=" }" />
+                  <marker date="1560245100302" expanded="true" signature="5902:5951" ph="@{...}" />
+                  <marker date="1560245100302" expanded="true" signature="6146:6325" ph="{...}" />
+                  <marker date="1560245100302" expanded="true" signature="6694:6752" ph="@{...}" />
+                  <marker date="1560245100302" expanded="true" signature="7100:7588" ph="{...}" />
+                  <marker date="1560245100302" expanded="true" signature="7724:7771" ph="{...}" />
+                  <marker date="1560245100302" expanded="true" signature="7809:7819" ph=" { " />
+                  <marker date="1560245100302" expanded="true" signature="7835:7841" ph=" }" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -180,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ly-upload/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-user/ly-user-service/src/main/java/com/leyou/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/ly-sms/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java" />
@@ -231,6 +181,7 @@
         <option value="$PROJECT_DIR$/ly-user/笔记：用户微服务.md" />
         <option value="$PROJECT_DIR$/ly-auth-center/笔记/笔记：鉴权微服务——授权.md" />
         <option value="$PROJECT_DIR$/ly-auth-center/笔记/笔记：鉴权微服务——鉴权.md" />
+        <option value="$PROJECT_DIR$/ly-cart/笔记：购物车微服务.md" />
       </list>
     </option>
   </component>
@@ -335,29 +286,7 @@
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-auth-center" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-auth-center" type="462c0819:PsiDirectoryNode" />
-              <item name="笔记" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-sms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-sms" type="462c0819:PsiDirectoryNode" />
-              <item name="笔记" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-user" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-cart" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,11 +340,11 @@
       <recent name="com.leyou.gateway.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\javacode\idea\leyou\ly-cart" />
       <recent name="H:\javacode\idea\leyou\ly-auth-center\笔记" />
       <recent name="H:\javacode\idea\leyou\ly-user" />
       <recent name="H:\javacode\idea\leyou\ly-sms\笔记" />
       <recent name="H:\javacode\idea\leyou\ly-page\笔记" />
-      <recent name="H:\javacode\idea\leyou\ly-search\笔记" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.leyou.order.dto" />
@@ -651,7 +580,7 @@
       <workItem from="1559784778763" duration="14080000" />
       <workItem from="1559873369826" duration="8584000" />
       <workItem from="1559975604706" duration="8059000" />
-      <workItem from="1560062075068" duration="26323000" />
+      <workItem from="1560062075068" duration="26510000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1557734582241</created>
@@ -696,7 +625,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="756179000" />
+    <option name="totallyTimeSpent" value="756366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,14 +734,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/pojo/OrderStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1650,6 +1571,39 @@
               <marker date="1560244888540" expanded="true" signature="1919:1925" ph=" }" />
               <marker date="1560244888540" expanded="true" signature="1986:2560" ph="{...}" />
               <marker date="1560244888540" expanded="true" signature="3069:3121" ph="@{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-cart/笔记：购物车微服务.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1440">
+            <caret line="409" column="0" lean-forward="true" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
+            <folding>
+              <marker date="1560245100302" expanded="true" signature="371:511" ph="{...}" />
+              <marker date="1560245100302" expanded="true" signature="553:578" ph="[...]" />
+              <marker date="1560245100302" expanded="true" signature="3127:4668" ph="..." />
+              <marker date="1560245100302" expanded="true" signature="3311:3450" ph="..." />
+              <marker date="1560245100302" expanded="true" signature="3588:4657" ph="..." />
+              <marker date="1560245100302" expanded="true" signature="3609:3748" ph="..." />
+              <marker date="1560245100302" expanded="true" signature="3769:3928" ph="..." />
+              <marker date="1560245100302" expanded="true" signature="3949:4096" ph="..." />
+              <marker date="1560245100302" expanded="true" signature="4117:4263" ph="..." />
+              <marker date="1560245100302" expanded="true" signature="4284:4453" ph="..." />
+              <marker date="1560245100302" expanded="true" signature="4474:4637" ph="..." />
+              <marker date="1560245100302" expanded="true" signature="5015:5080" ph="@{...}" />
+              <marker date="1560245100302" expanded="true" signature="5156:5167" ph=" { " />
+              <marker date="1560245100302" expanded="true" signature="5220:5226" ph=" }" />
+              <marker date="1560245100302" expanded="true" signature="5902:5951" ph="@{...}" />
+              <marker date="1560245100302" expanded="true" signature="6146:6325" ph="{...}" />
+              <marker date="1560245100302" expanded="true" signature="6694:6752" ph="@{...}" />
+              <marker date="1560245100302" expanded="true" signature="7100:7588" ph="{...}" />
+              <marker date="1560245100302" expanded="true" signature="7724:7771" ph="{...}" />
+              <marker date="1560245100302" expanded="true" signature="7809:7819" ph=" { " />
+              <marker date="1560245100302" expanded="true" signature="7835:7841" ph=" }" />
             </folding>
           </first_editor>
           <second_editor />
