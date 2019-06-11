@@ -52,60 +52,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="笔记：搜索微服务.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-search/笔记/笔记：搜索微服务.md">
+      <file leaf-file-name="笔记：页面微服务.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-page/笔记/笔记：页面微服务.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="281">
-                <caret line="990" column="0" lean-forward="true" selection-start-line="990" selection-start-column="0" selection-end-line="990" selection-end-column="0" />
+              <first_editor relative-caret-position="425">
+                <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
                 <folding>
-                  <marker date="1560240598168" expanded="true" signature="4984:7067" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="5168:5307" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="5452:6825" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="5495:5654" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="5694:5833" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="5883:6037" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="6085:6232" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="6287:6427" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="6472:6644" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="6665:6805" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="6837:7056" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="6855:7043" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="6876:7024" ph="..." />
-                  <marker date="1560240598168" expanded="true" signature="7555:7620" ph="@{...}" />
-                  <marker date="1560240598168" expanded="true" signature="7698:7709" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="7758:7764" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="7950:8027" ph="@{...}" />
-                  <marker date="1560240598168" expanded="true" signature="8986:9059" ph="{...}" />
-                  <marker date="1560240598168" expanded="true" signature="9002:9055" ph="{&quot;颜色&quot;: &quot;红色&quot;...}" />
-                  <marker date="1560240598168" expanded="true" signature="11480:11524" ph="@{...}" />
-                  <marker date="1560240598168" expanded="true" signature="11663:11770" ph="{...}" />
-                  <marker date="1560240598168" expanded="true" signature="17802:17813" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="17836:17842" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="18005:18016" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="18030:18036" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="18078:18089" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="18110:18116" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="18152:18163" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="18181:18187" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="18238:18249" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="18278:18284" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="18312:18323" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="18334:18340" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="18376:18387" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="18402:18408" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="18439:18596" ph="{...}" />
-                  <marker date="1560240598168" expanded="true" signature="18635:18646" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="18663:18669" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="18699:18710" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="18722:18728" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="18772:18783" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="18797:18803" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="18858:18869" ph=" { " />
-                  <marker date="1560240598168" expanded="true" signature="18890:18896" ph=" }" />
-                  <marker date="1560240598168" expanded="true" signature="19451:19594" ph="{...}" />
-                  <marker date="1560240598168" expanded="true" signature="19849:19921" ph="{...}" />
-                  <marker date="1560240598168" expanded="true" signature="26715:26734" ph="/.../" />
+                  <marker date="1560243656278" expanded="true" signature="2101:2188" ph="{...}" />
+                  <marker date="1560243656278" expanded="true" signature="2580:4548" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="2764:2903" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="3041:4306" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="3062:3207" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="3228:3367" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="3388:3560" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="3581:3740" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="3761:3908" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="3953:4125" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="4146:4286" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="4318:4537" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="4336:4524" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="4357:4505" ph="..." />
+                  <marker date="1560243656278" expanded="true" signature="4833:4898" ph="@{...}" />
+                  <marker date="1560243656278" expanded="true" signature="4974:4985" ph=" { " />
+                  <marker date="1560243656278" expanded="true" signature="5032:5038" ph=" }" />
+                  <marker date="1560243656278" expanded="true" signature="6472:6531" ph="@{...}" />
+                  <marker date="1560243656278" expanded="true" signature="8589:8785" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -113,28 +85,102 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="全文检索技术Elasticsearch.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ly-search/笔记/全文检索技术Elasticsearch.md">
+      <file leaf-file-name="优化：利用中间件技术RabbitMQ优化搜索微服务和页面微服务.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ly-page/笔记/优化：利用中间件技术RabbitMQ优化搜索微服务和页面微服务.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-162">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="-1753">
+                <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
                 <folding>
-                  <marker date="1560240199071" expanded="true" signature="2059:2149" ph="{...}" />
-                  <marker date="1560240199071" expanded="true" signature="2077:2147" ph="{&quot;number_of_shards&quot;: 3...}" />
-                  <marker date="1560240199071" expanded="true" signature="5106:5258" ph="{&quot;size&quot;: 0...}" />
-                  <marker date="1560240199071" expanded="true" signature="5137:5256" ph="{...}" />
-                  <marker date="1560240199071" expanded="true" signature="5167:5250" ph="{...}" />
-                  <marker date="1560240199071" expanded="true" signature="5192:5240" ph="{&quot;field&quot;: &quot;color&quot;...}" />
-                  <marker date="1560240199071" expanded="true" signature="5444:6006" ph="{&quot;took&quot;: 1...}" />
-                  <marker date="1560240199071" expanded="true" signature="5494:5570" ph="{&quot;total&quot;: 1...}" />
-                  <marker date="1560240199071" expanded="true" signature="5582:5638" ph="{&quot;total&quot;: 8...}" />
-                  <marker date="1560240199071" expanded="true" signature="5658:6004" ph="{...}" />
-                  <marker date="1560240199071" expanded="true" signature="5682:6000" ph="{&quot;doc_count_error_upper_bound&quot;: 0...}" />
-                  <marker date="1560240199071" expanded="true" signature="5773:5994" ph="[...]" />
-                  <marker date="1560240199071" expanded="true" signature="5783:5843" ph="{&quot;key&quot;: &quot;red&quot;...}" />
-                  <marker date="1560240199071" expanded="true" signature="5853:5914" ph="{&quot;key&quot;: &quot;blue&quot;...}" />
-                  <marker date="1560240199071" expanded="true" signature="5924:5986" ph="{&quot;key&quot;: &quot;green&quot;...}" />
+                  <marker date="1560243656311" expanded="true" signature="258:374" ph="..." />
+                  <marker date="1560243656311" expanded="true" signature="423:533" ph="spring: &lt;1 key&gt;" />
+                  <marker date="1560243656311" expanded="true" signature="433:533" ph="rabbitmq: &lt;4 keys&gt;" />
+                  <marker date="1560243656311" expanded="true" signature="453:468" ph="192.168.124.128" />
+                  <marker date="1560243656311" expanded="true" signature="483:488" ph="leyou" />
+                  <marker date="1560243656311" expanded="true" signature="503:508" ph="leyou" />
+                  <marker date="1560243656311" expanded="true" signature="527:533" ph="/leyou" />
+                  <marker date="1560243656311" expanded="true" signature="672:1022" ph="@{...}" />
+                  <marker date="1560243656311" expanded="true" signature="1057:1067" ph=" { " />
+                  <marker date="1560243656311" expanded="true" signature="1102:1108" ph=" }" />
+                  <marker date="1560243656311" expanded="true" signature="2022:2138" ph="..." />
+                  <marker date="1560243656311" expanded="true" signature="2205:2512" ph="spring: &lt;1 key&gt;" />
+                  <marker date="1560243656311" expanded="true" signature="2215:2512" ph="rabbitmq: &lt;6 keys&gt;" />
+                  <marker date="1560243656311" expanded="true" signature="2235:2249" ph="192.168.56.101" />
+                  <marker date="1560243656311" expanded="true" signature="2264:2269" ph="leyou" />
+                  <marker date="1560243656311" expanded="true" signature="2284:2289" ph="leyou" />
+                  <marker date="1560243656311" expanded="true" signature="2308:2314" ph="/leyou" />
+                  <marker date="1560243656311" expanded="true" signature="2319:2483" ph="template: &lt;2 keys&gt;" />
+                  <marker date="1560243656311" expanded="true" signature="2335:2450" ph="retry: &lt;4 keys&gt;" />
+                  <marker date="1560243656311" expanded="true" signature="2359:2363" ph="true" />
+                  <marker date="1560243656311" expanded="true" signature="2390:2397" ph="10000ms" />
+                  <marker date="1560243656311" expanded="true" signature="2420:2428" ph="300000ms" />
+                  <marker date="1560243656311" expanded="true" signature="2467:2483" ph="ly.item.exchange" />
+                  <marker date="1560243656311" expanded="true" signature="2508:2512" ph="true" />
+                  <marker date="1560243656311" expanded="true" signature="2896:3012" ph="..." />
+                  <marker date="1560243656311" expanded="true" signature="3039:3149" ph="spring: &lt;1 key&gt;" />
+                  <marker date="1560243656311" expanded="true" signature="3049:3149" ph="rabbitmq: &lt;4 keys&gt;" />
+                  <marker date="1560243656311" expanded="true" signature="3069:3084" ph="192.168.124.128" />
+                  <marker date="1560243656311" expanded="true" signature="3099:3104" ph="leyou" />
+                  <marker date="1560243656311" expanded="true" signature="3119:3124" ph="leyou" />
+                  <marker date="1560243656311" expanded="true" signature="3143:3149" ph="/leyou" />
+                  <marker date="1560243656311" expanded="true" signature="3383:3650" ph="@{...}" />
+                  <marker date="1560243656311" expanded="true" signature="3699:3842" ph="{...}" />
+                  <marker date="1560243656311" expanded="true" signature="3848:4100" ph="@{...}" />
+                  <marker date="1560243656311" expanded="true" signature="4141:4276" ph="{...}" />
+                  <marker date="1560243656311" expanded="true" signature="4659:4775" ph="..." />
+                  <marker date="1560243656311" expanded="true" signature="4803:4912" ph="spring: &lt;1 key&gt;" />
+                  <marker date="1560243656311" expanded="true" signature="4813:4912" ph="rabbitmq: &lt;4 keys&gt;" />
+                  <marker date="1560243656311" expanded="true" signature="4833:4847" ph="192.168.56.101" />
+                  <marker date="1560243656311" expanded="true" signature="4862:4867" ph="leyou" />
+                  <marker date="1560243656311" expanded="true" signature="4882:4887" ph="leyou" />
+                  <marker date="1560243656311" expanded="true" signature="4906:4912" ph="/leyou" />
+                  <marker date="1560243656311" expanded="true" signature="5070:5335" ph="@{...}" />
+                  <marker date="1560243656311" expanded="true" signature="5384:5509" ph="{...}" />
+                  <marker date="1560243656311" expanded="true" signature="5515:5765" ph="@{...}" />
+                  <marker date="1560243656311" expanded="true" signature="5806:5934" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="消息服务器RabbitMQ及其五种消息模型.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-page/笔记/消息服务器RabbitMQ及其五种消息模型.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="335">
+                <caret line="643" column="0" lean-forward="false" selection-start-line="643" selection-start-column="0" selection-end-line="643" selection-end-column="0" />
+                <folding>
+                  <marker date="1560243655923" expanded="true" signature="1345:1418" ph="/**...*/" />
+                  <marker date="1560243655923" expanded="true" signature="1481:1922" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="2093:2652" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="2818:3642" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="3140:3543" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="3374:3533" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="4939:5559" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="7331:7873" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="8125:9021" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="8527:8933" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="8761:8923" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="9297:10201" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="9707:10113" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="9941:10103" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="11020:11578" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="11862:12878" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="12385:12791" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="12619:12781" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="13167:14249" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="13756:14162" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="13990:14152" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="14883:15444" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="15725:16746" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="16253:16659" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="16487:16649" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="16811:16826" ph="/**...*/" />
+                  <marker date="1560243655923" expanded="true" signature="17051:18005" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="17512:17918" ph="{...}" />
+                  <marker date="1560243655923" expanded="true" signature="17746:17908" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -186,9 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/hello.java" />
-        <option value="$PROJECT_DIR$/ly-user/ly-user-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/ly-auth-center/ly-auth-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-cart/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-order/src/main/resources/application.yml" />
@@ -237,6 +280,9 @@
         <option value="$PROJECT_DIR$/ly-item/笔记/笔记：商品微服务（下）.md" />
         <option value="$PROJECT_DIR$/ly-upload/笔记：上传微服务.md" />
         <option value="$PROJECT_DIR$/ly-search/笔记/笔记：搜索微服务.md" />
+        <option value="$PROJECT_DIR$/ly-page/笔记/笔记：页面微服务.md" />
+        <option value="$PROJECT_DIR$/ly-page/笔记/消息服务器RabbitMQ及其五种消息模型.md" />
+        <option value="$PROJECT_DIR$/ly-page/笔记/优化：利用中间件技术RabbitMQ优化搜索微服务和页面微服务.md" />
       </list>
     </option>
   </component>
@@ -341,12 +387,12 @@
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-page" type="462c0819:PsiDirectoryNode" />
               <item name="笔记" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -401,11 +447,11 @@
       <recent name="com.leyou.gateway.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\javacode\idea\leyou\ly-page\笔记" />
       <recent name="H:\javacode\idea\leyou\ly-search\笔记" />
       <recent name="H:\javacode\idea\leyou\ly-upload" />
       <recent name="H:\javacode\idea\leyou\ly-item\笔记" />
       <recent name="H:\javacode\idea\leyou\ly-gateway" />
-      <recent name="H:\javacode\idea\leyou\ly-registry" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.leyou.order.dto" />
@@ -641,7 +687,7 @@
       <workItem from="1559784778763" duration="14080000" />
       <workItem from="1559873369826" duration="8584000" />
       <workItem from="1559975604706" duration="8059000" />
-      <workItem from="1560062075068" duration="23352000" />
+      <workItem from="1560062075068" duration="25067000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1557734582241</created>
@@ -686,7 +732,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="753208000" />
+    <option name="totallyTimeSpent" value="754923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,7 +745,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10048623" sideWeight="0.53933436" order="10" side_tool="true" content_ui="tabs" />
@@ -721,7 +766,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2382496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34304208" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18003026" sideWeight="0.41815236" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18003026" sideWeight="0.41815236" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28290468" sideWeight="0.55445546" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -795,27 +840,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ly-cart/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-cart/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-cart/src/main/java/com/leyou/cart/config/JwtProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-cart/src/main/java/com/leyou/cart/config/MvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1358,70 +1382,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-search/笔记/笔记：搜索微服务.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="281">
-            <caret line="990" column="0" lean-forward="true" selection-start-line="990" selection-start-column="0" selection-end-line="990" selection-end-column="0" />
-            <folding>
-              <marker date="1560240598168" expanded="true" signature="4984:7067" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="5168:5307" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="5452:6825" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="5495:5654" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="5694:5833" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="5883:6037" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="6085:6232" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="6287:6427" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="6472:6644" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="6665:6805" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="6837:7056" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="6855:7043" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="6876:7024" ph="..." />
-              <marker date="1560240598168" expanded="true" signature="7555:7620" ph="@{...}" />
-              <marker date="1560240598168" expanded="true" signature="7698:7709" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="7758:7764" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="7950:8027" ph="@{...}" />
-              <marker date="1560240598168" expanded="true" signature="8986:9059" ph="{...}" />
-              <marker date="1560240598168" expanded="true" signature="9002:9055" ph="{&quot;颜色&quot;: &quot;红色&quot;...}" />
-              <marker date="1560240598168" expanded="true" signature="11480:11524" ph="@{...}" />
-              <marker date="1560240598168" expanded="true" signature="11663:11770" ph="{...}" />
-              <marker date="1560240598168" expanded="true" signature="17802:17813" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="17836:17842" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="18005:18016" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="18030:18036" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="18078:18089" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="18110:18116" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="18152:18163" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="18181:18187" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="18238:18249" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="18278:18284" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="18312:18323" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="18334:18340" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="18376:18387" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="18402:18408" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="18439:18596" ph="{...}" />
-              <marker date="1560240598168" expanded="true" signature="18635:18646" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="18663:18669" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="18699:18710" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="18722:18728" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="18772:18783" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="18797:18803" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="18858:18869" ph=" { " />
-              <marker date="1560240598168" expanded="true" signature="18890:18896" ph=" }" />
-              <marker date="1560240598168" expanded="true" signature="19451:19594" ph="{...}" />
-              <marker date="1560240598168" expanded="true" signature="19849:19921" ph="{...}" />
-              <marker date="1560240598168" expanded="true" signature="26715:26734" ph="/.../" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-search/笔记/全文检索技术Elasticsearch.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-162">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="342">
+            <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
             <folding>
               <marker date="1560240199071" expanded="true" signature="2059:2149" ph="{...}" />
               <marker date="1560240199071" expanded="true" signature="2077:2147" ph="{&quot;number_of_shards&quot;: 3...}" />
@@ -1438,6 +1403,171 @@
               <marker date="1560240199071" expanded="true" signature="5783:5843" ph="{&quot;key&quot;: &quot;red&quot;...}" />
               <marker date="1560240199071" expanded="true" signature="5853:5914" ph="{&quot;key&quot;: &quot;blue&quot;...}" />
               <marker date="1560240199071" expanded="true" signature="5924:5986" ph="{&quot;key&quot;: &quot;green&quot;...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/笔记/笔记：搜索微服务.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <folding>
+              <marker date="1560240598168" expanded="true" signature="4984:7067" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="5168:5307" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="5452:6825" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="5495:5654" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="5694:5833" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="5883:6037" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="6085:6232" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="6287:6427" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="6472:6644" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="6665:6805" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="6837:7056" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="6855:7043" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="6876:7024" ph="..." />
+              <marker date="1560240598168" expanded="true" signature="7555:7620" ph="@{...}" />
+              <marker date="1560240598168" expanded="true" signature="7950:8027" ph="@{...}" />
+              <marker date="1560240598168" expanded="true" signature="8986:9059" ph="{...}" />
+              <marker date="1560240598168" expanded="true" signature="9002:9055" ph="{&quot;颜色&quot;: &quot;红色&quot;...}" />
+              <marker date="1560240598168" expanded="true" signature="11480:11524" ph="@{...}" />
+              <marker date="1560240598168" expanded="true" signature="11663:11770" ph="{...}" />
+              <marker date="1560240598168" expanded="true" signature="18439:18596" ph="{...}" />
+              <marker date="1560240598168" expanded="true" signature="19451:19594" ph="{...}" />
+              <marker date="1560240598168" expanded="true" signature="19849:19921" ph="{...}" />
+              <marker date="1560240598168" expanded="true" signature="26715:26734" ph="/.../" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-page/笔记/消息服务器RabbitMQ及其五种消息模型.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="335">
+            <caret line="643" column="0" lean-forward="false" selection-start-line="643" selection-start-column="0" selection-end-line="643" selection-end-column="0" />
+            <folding>
+              <marker date="1560243655923" expanded="true" signature="1345:1418" ph="/**...*/" />
+              <marker date="1560243655923" expanded="true" signature="1481:1922" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="2093:2652" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="2818:3642" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="3140:3543" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="3374:3533" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="4939:5559" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="7331:7873" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="8125:9021" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="8527:8933" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="8761:8923" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="9297:10201" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="9707:10113" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="9941:10103" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="11020:11578" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="11862:12878" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="12385:12791" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="12619:12781" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="13167:14249" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="13756:14162" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="13990:14152" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="14883:15444" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="15725:16746" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="16253:16659" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="16487:16649" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="16811:16826" ph="/**...*/" />
+              <marker date="1560243655923" expanded="true" signature="17051:18005" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="17512:17918" ph="{...}" />
+              <marker date="1560243655923" expanded="true" signature="17746:17908" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-page/笔记/笔记：页面微服务.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="425">
+            <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
+            <folding>
+              <marker date="1560243656278" expanded="true" signature="2101:2188" ph="{...}" />
+              <marker date="1560243656278" expanded="true" signature="2580:4548" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="2764:2903" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="3041:4306" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="3062:3207" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="3228:3367" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="3388:3560" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="3581:3740" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="3761:3908" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="3953:4125" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="4146:4286" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="4318:4537" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="4336:4524" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="4357:4505" ph="..." />
+              <marker date="1560243656278" expanded="true" signature="4833:4898" ph="@{...}" />
+              <marker date="1560243656278" expanded="true" signature="4974:4985" ph=" { " />
+              <marker date="1560243656278" expanded="true" signature="5032:5038" ph=" }" />
+              <marker date="1560243656278" expanded="true" signature="6472:6531" ph="@{...}" />
+              <marker date="1560243656278" expanded="true" signature="8589:8785" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-page/笔记/优化：利用中间件技术RabbitMQ优化搜索微服务和页面微服务.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1753">
+            <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+            <folding>
+              <marker date="1560243656311" expanded="true" signature="258:374" ph="..." />
+              <marker date="1560243656311" expanded="true" signature="423:533" ph="spring: &lt;1 key&gt;" />
+              <marker date="1560243656311" expanded="true" signature="433:533" ph="rabbitmq: &lt;4 keys&gt;" />
+              <marker date="1560243656311" expanded="true" signature="453:468" ph="192.168.124.128" />
+              <marker date="1560243656311" expanded="true" signature="483:488" ph="leyou" />
+              <marker date="1560243656311" expanded="true" signature="503:508" ph="leyou" />
+              <marker date="1560243656311" expanded="true" signature="527:533" ph="/leyou" />
+              <marker date="1560243656311" expanded="true" signature="672:1022" ph="@{...}" />
+              <marker date="1560243656311" expanded="true" signature="1057:1067" ph=" { " />
+              <marker date="1560243656311" expanded="true" signature="1102:1108" ph=" }" />
+              <marker date="1560243656311" expanded="true" signature="2022:2138" ph="..." />
+              <marker date="1560243656311" expanded="true" signature="2205:2512" ph="spring: &lt;1 key&gt;" />
+              <marker date="1560243656311" expanded="true" signature="2215:2512" ph="rabbitmq: &lt;6 keys&gt;" />
+              <marker date="1560243656311" expanded="true" signature="2235:2249" ph="192.168.56.101" />
+              <marker date="1560243656311" expanded="true" signature="2264:2269" ph="leyou" />
+              <marker date="1560243656311" expanded="true" signature="2284:2289" ph="leyou" />
+              <marker date="1560243656311" expanded="true" signature="2308:2314" ph="/leyou" />
+              <marker date="1560243656311" expanded="true" signature="2319:2483" ph="template: &lt;2 keys&gt;" />
+              <marker date="1560243656311" expanded="true" signature="2335:2450" ph="retry: &lt;4 keys&gt;" />
+              <marker date="1560243656311" expanded="true" signature="2359:2363" ph="true" />
+              <marker date="1560243656311" expanded="true" signature="2390:2397" ph="10000ms" />
+              <marker date="1560243656311" expanded="true" signature="2420:2428" ph="300000ms" />
+              <marker date="1560243656311" expanded="true" signature="2467:2483" ph="ly.item.exchange" />
+              <marker date="1560243656311" expanded="true" signature="2508:2512" ph="true" />
+              <marker date="1560243656311" expanded="true" signature="2896:3012" ph="..." />
+              <marker date="1560243656311" expanded="true" signature="3039:3149" ph="spring: &lt;1 key&gt;" />
+              <marker date="1560243656311" expanded="true" signature="3049:3149" ph="rabbitmq: &lt;4 keys&gt;" />
+              <marker date="1560243656311" expanded="true" signature="3069:3084" ph="192.168.124.128" />
+              <marker date="1560243656311" expanded="true" signature="3099:3104" ph="leyou" />
+              <marker date="1560243656311" expanded="true" signature="3119:3124" ph="leyou" />
+              <marker date="1560243656311" expanded="true" signature="3143:3149" ph="/leyou" />
+              <marker date="1560243656311" expanded="true" signature="3383:3650" ph="@{...}" />
+              <marker date="1560243656311" expanded="true" signature="3699:3842" ph="{...}" />
+              <marker date="1560243656311" expanded="true" signature="3848:4100" ph="@{...}" />
+              <marker date="1560243656311" expanded="true" signature="4141:4276" ph="{...}" />
+              <marker date="1560243656311" expanded="true" signature="4659:4775" ph="..." />
+              <marker date="1560243656311" expanded="true" signature="4803:4912" ph="spring: &lt;1 key&gt;" />
+              <marker date="1560243656311" expanded="true" signature="4813:4912" ph="rabbitmq: &lt;4 keys&gt;" />
+              <marker date="1560243656311" expanded="true" signature="4833:4847" ph="192.168.56.101" />
+              <marker date="1560243656311" expanded="true" signature="4862:4867" ph="leyou" />
+              <marker date="1560243656311" expanded="true" signature="4882:4887" ph="leyou" />
+              <marker date="1560243656311" expanded="true" signature="4906:4912" ph="/leyou" />
+              <marker date="1560243656311" expanded="true" signature="5070:5335" ph="@{...}" />
+              <marker date="1560243656311" expanded="true" signature="5384:5509" ph="{...}" />
+              <marker date="1560243656311" expanded="true" signature="5515:5765" ph="@{...}" />
+              <marker date="1560243656311" expanded="true" signature="5806:5934" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
