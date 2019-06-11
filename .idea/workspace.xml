@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b55b8a1f-c913-4d4a-bef1-1691e64d85d4" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ly-cart/ly-cart.iml" afterPath="$PROJECT_DIR$/ly-cart/ly-cart.iml" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/ly-gateway.iml" afterPath="$PROJECT_DIR$/ly-gateway/ly-gateway.iml" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" />
-      <change beforePath="$PROJECT_DIR$/ly-order/ly-order.iml" afterPath="$PROJECT_DIR$/ly-order/ly-order.iml" />
-      <change beforePath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/service/OrderService.java" afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/service/OrderService.java" />
-      <change beforePath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/web/NotifyController.java" afterPath="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/web/NotifyController.java" />
-      <change beforePath="$PROJECT_DIR$/ly-user/ly-user-service/ly-user-service.iml" afterPath="$PROJECT_DIR$/ly-user/ly-user-service/ly-user-service.iml" />
-    </list>
+    <list default="true" id="b55b8a1f-c913-4d4a-bef1-1691e64d85d4" name="Default Changelist" comment="Default Changelist" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ly-registry/target/" />
@@ -104,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/PackageApplication.java" />
         <option value="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/utils/JsonUtils.java" />
         <option value="$PROJECT_DIR$/ly-common/src/main/java/hello.java" />
         <option value="$PROJECT_DIR$/ly-item/pom.xml" />
@@ -155,6 +145,7 @@
         <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/service/OrderService.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" />
         <option value="$PROJECT_DIR$/ly-order/src/main/java/com/leyou/order/web/NotifyController.java" />
+        <option value="$PROJECT_DIR$/ly-registry/笔记：注册微服务.md" />
       </list>
     </option>
   </component>
@@ -205,7 +196,7 @@
     <option name="skipTests" value="true" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="2" />
     <option name="width" value="1376" />
@@ -255,6 +246,11 @@
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="ly-registry" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,6 +304,7 @@
       <recent name="com.leyou.gateway.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\javacode\idea\leyou\ly-registry" />
       <recent name="D:\javacode\idea\leyou\ly-user\ly-user-service\src\main\java\com\leyou\user\utils" />
       <recent name="D:\javacode\idea\leyou\ly-page\src\main\java\com\leyou\page\client" />
       <recent name="D:\javacode\idea\leyou\ly-page\src\main\resources\templates" />
@@ -547,7 +544,7 @@
       <workItem from="1559784778763" duration="14080000" />
       <workItem from="1559873369826" duration="8584000" />
       <workItem from="1559975604706" duration="8059000" />
-      <workItem from="1560062075068" duration="18422000" />
+      <workItem from="1560062075068" duration="19240000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1557734582241</created>
@@ -592,7 +589,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="748278000" />
+    <option name="totallyTimeSpent" value="749096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -604,7 +601,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10048623" sideWeight="0.53933436" order="10" side_tool="true" content_ui="tabs" />
@@ -700,13 +697,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ly-cart/ly-cart.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2879">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/web/SpecificationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-108">
@@ -1138,6 +1128,26 @@
         <state relative-caret-position="297">
           <caret line="156" column="42" lean-forward="true" selection-start-line="156" selection-start-column="42" selection-end-line="156" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-registry/笔记：注册微服务.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3320">
+            <caret line="234" column="19" lean-forward="false" selection-start-line="234" selection-start-column="19" selection-end-line="234" selection-end-column="19" />
+            <folding>
+              <marker date="1560224473134" expanded="true" signature="237:1214" ph="..." />
+              <marker date="1560224473134" expanded="true" signature="421:560" ph="..." />
+              <marker date="1560224473134" expanded="true" signature="701:972" ph="..." />
+              <marker date="1560224473134" expanded="true" signature="793:952" ph="..." />
+              <marker date="1560224473134" expanded="true" signature="984:1203" ph="..." />
+              <marker date="1560224473134" expanded="true" signature="1002:1190" ph="..." />
+              <marker date="1560224473134" expanded="true" signature="1023:1171" ph="..." />
+              <marker date="1560224473134" expanded="true" signature="1242:1309" ph="@{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
