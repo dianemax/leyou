@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b55b8a1f-c913-4d4a-bef1-1691e64d85d4" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="b55b8a1f-c913-4d4a-bef1-1691e64d85d4" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/ly-item/笔记/商品微服务的构建与商品表结构分析.md" afterPath="$PROJECT_DIR$/ly-item/笔记/商品微服务的构建与商品表结构分析.md" />
+      <change beforePath="$PROJECT_DIR$/ly-item/笔记/笔记：商品微服务（上）.md" afterPath="$PROJECT_DIR$/ly-item/笔记/笔记：商品微服务（上）.md" />
+      <change beforePath="$PROJECT_DIR$/ly-item/笔记/笔记：商品微服务（下）.md" afterPath="$PROJECT_DIR$/ly-item/笔记/笔记：商品微服务（下）.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ly-registry/target/" />
@@ -51,7 +55,109 @@
     <favorites_list name="leyou" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="商品微服务的构建与商品表结构分析.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/笔记/商品微服务的构建与商品表结构分析.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="396">
+                <caret line="178" column="17" lean-forward="true" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
+                <folding>
+                  <marker date="1560239156860" expanded="true" signature="3459:3621" ph="{...}" />
+                  <marker date="1560239156860" expanded="true" signature="3470:3521" ph="[...]" />
+                  <marker date="1560239156860" expanded="true" signature="3533:3569" ph="[...]" />
+                  <marker date="1560239156860" expanded="true" signature="3581:3619" ph="[...]" />
+                  <marker date="1560239156860" expanded="true" signature="4041:4082" ph="{&quot;4&quot;: &quot;香槟金&quot;...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="笔记：商品微服务（上）.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/笔记/笔记：商品微服务（上）.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="281">
+                <caret line="1200" column="3" lean-forward="true" selection-start-line="1200" selection-start-column="3" selection-end-line="1200" selection-end-column="3" />
+                <folding>
+                  <marker date="1560239507791" expanded="true" signature="719:1338" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="903:1042" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="1228:1327" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="1669:2096" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="2537:3734" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="2721:2863" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="3011:3723" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="3032:3182" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="3203:3374" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="3395:3519" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="3540:3703" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="3875:6115" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="4059:4201" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="4347:5872" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="4412:4551" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="4597:4756" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="4804:4932" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="4976:5119" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="5163:5280" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="5301:5473" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="5528:5691" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="5712:5852" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="5885:6104" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="5903:6091" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="5924:6072" ph="..." />
+                  <marker date="1560239507791" expanded="true" signature="6144:6223" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="6299:6310" ph=" { " />
+                  <marker date="1560239507791" expanded="true" signature="6362:6368" ph=" }" />
+                  <marker date="1560239507791" expanded="true" signature="8853:8887" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="8916:8982" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="10021:10064" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="10223:10286" ph="/**...*/" />
+                  <marker date="1560239507791" expanded="true" signature="10479:10565" ph="{...}" />
+                  <marker date="1560239507791" expanded="true" signature="10702:10763" ph="/**...*/" />
+                  <marker date="1560239507791" expanded="true" signature="10823:11140" ph="{...}" />
+                  <marker date="1560239507791" expanded="true" signature="15002:15920" ph="{...}" />
+                  <marker date="1560239507791" expanded="true" signature="16243:16272" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="16298:16338" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="16812:16819" ph="{}" />
+                  <marker date="1560239507791" expanded="true" signature="16870:16933" ph="{...}" />
+                  <marker date="1560239507791" expanded="true" signature="17003:17102" ph="{...}" />
+                  <marker date="1560239507791" expanded="true" signature="17223:17263" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="17840:17984" ph="{...}" />
+                  <marker date="1560239507791" expanded="true" signature="18809:19636" ph="{...}" />
+                  <marker date="1560239507791" expanded="true" signature="24356:24392" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="24422:24462" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="24846:24885" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="25122:25206" ph="{...}" />
+                  <marker date="1560239507791" expanded="true" signature="25661:25697" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="25727:25767" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="27369:27398" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="27422:27462" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="28158:28192" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="28494:28523" ph="@{...}" />
+                  <marker date="1560239507791" expanded="true" signature="28547:28587" ph="@{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="笔记：商品微服务（下）.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ly-item/笔记/笔记：商品微服务（下）.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="198">
+                <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -555,7 +661,7 @@
       <workItem from="1559784778763" duration="14080000" />
       <workItem from="1559873369826" duration="8584000" />
       <workItem from="1559975604706" duration="8059000" />
-      <workItem from="1560062075068" duration="21457000" />
+      <workItem from="1560062075068" duration="22305000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1557734582241</created>
@@ -600,7 +706,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="751313000" />
+    <option name="totallyTimeSpent" value="752161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,6 +719,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10048623" sideWeight="0.53933436" order="10" side_tool="true" content_ui="tabs" />
@@ -634,7 +741,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2382496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34304208" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28895614" sideWeight="0.41815236" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18003026" sideWeight="0.41815236" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28290468" sideWeight="0.55445546" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1169,14 +1276,14 @@
     <entry file="file://$PROJECT_DIR$/ly-item/笔记/商品微服务的构建与商品表结构分析.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <first_editor relative-caret-position="396">
+            <caret line="178" column="17" lean-forward="true" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
             <folding>
-              <marker date="1560238551882" expanded="true" signature="3439:3601" ph="{...}" />
-              <marker date="1560238551882" expanded="true" signature="3450:3501" ph="[...]" />
-              <marker date="1560238551882" expanded="true" signature="3513:3549" ph="[...]" />
-              <marker date="1560238551882" expanded="true" signature="3561:3599" ph="[...]" />
-              <marker date="1560238551882" expanded="true" signature="4018:4059" ph="{&quot;4&quot;: &quot;香槟金&quot;...}" />
+              <marker date="1560239156860" expanded="true" signature="3459:3621" ph="{...}" />
+              <marker date="1560239156860" expanded="true" signature="3470:3521" ph="[...]" />
+              <marker date="1560239156860" expanded="true" signature="3533:3569" ph="[...]" />
+              <marker date="1560239156860" expanded="true" signature="3581:3619" ph="[...]" />
+              <marker date="1560239156860" expanded="true" signature="4041:4082" ph="{&quot;4&quot;: &quot;香槟金&quot;...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1186,62 +1293,64 @@
     <entry file="file://$PROJECT_DIR$/ly-item/笔记/笔记：商品微服务（上）.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="12" />
+          <first_editor relative-caret-position="281">
+            <caret line="1200" column="3" lean-forward="true" selection-start-line="1200" selection-start-column="3" selection-end-line="1200" selection-end-column="3" />
             <folding>
-              <marker date="1560238620079" expanded="true" signature="717:1336" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="901:1040" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="1226:1325" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="1667:2094" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="2535:3732" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="2719:2861" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="3009:3721" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="3030:3180" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="3201:3372" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="3393:3517" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="3538:3701" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="3873:6113" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="4057:4199" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="4345:5870" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="4410:4549" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="4595:4754" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="4802:4930" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="4974:5117" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="5161:5278" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="5299:5471" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="5526:5689" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="5710:5850" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="5883:6102" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="5901:6089" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="5922:6070" ph="..." />
-              <marker date="1560238620079" expanded="true" signature="6142:6221" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="8845:8879" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="8908:8974" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="10008:10051" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="10210:10273" ph="/**...*/" />
-              <marker date="1560238620079" expanded="true" signature="10466:10552" ph="{...}" />
-              <marker date="1560238620079" expanded="true" signature="10689:10750" ph="/**...*/" />
-              <marker date="1560238620079" expanded="true" signature="10810:11127" ph="{...}" />
-              <marker date="1560238620079" expanded="true" signature="14985:15903" ph="{...}" />
-              <marker date="1560238620079" expanded="true" signature="16224:16253" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="16279:16319" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="16793:16800" ph="{}" />
-              <marker date="1560238620079" expanded="true" signature="16851:16914" ph="{...}" />
-              <marker date="1560238620079" expanded="true" signature="16984:17083" ph="{...}" />
-              <marker date="1560238620079" expanded="true" signature="17204:17244" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="17821:17965" ph="{...}" />
-              <marker date="1560238620079" expanded="true" signature="18790:19617" ph="{...}" />
-              <marker date="1560238620079" expanded="true" signature="24312:24348" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="24378:24418" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="24800:24839" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="25076:25160" ph="{...}" />
-              <marker date="1560238620079" expanded="true" signature="25615:25651" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="25681:25721" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="27322:27351" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="27375:27415" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="28111:28145" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="28447:28476" ph="@{...}" />
-              <marker date="1560238620079" expanded="true" signature="28500:28540" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="719:1338" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="903:1042" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="1228:1327" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="1669:2096" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="2537:3734" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="2721:2863" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="3011:3723" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="3032:3182" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="3203:3374" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="3395:3519" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="3540:3703" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="3875:6115" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="4059:4201" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="4347:5872" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="4412:4551" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="4597:4756" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="4804:4932" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="4976:5119" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="5163:5280" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="5301:5473" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="5528:5691" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="5712:5852" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="5885:6104" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="5903:6091" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="5924:6072" ph="..." />
+              <marker date="1560239507791" expanded="true" signature="6144:6223" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="6299:6310" ph=" { " />
+              <marker date="1560239507791" expanded="true" signature="6362:6368" ph=" }" />
+              <marker date="1560239507791" expanded="true" signature="8853:8887" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="8916:8982" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="10021:10064" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="10223:10286" ph="/**...*/" />
+              <marker date="1560239507791" expanded="true" signature="10479:10565" ph="{...}" />
+              <marker date="1560239507791" expanded="true" signature="10702:10763" ph="/**...*/" />
+              <marker date="1560239507791" expanded="true" signature="10823:11140" ph="{...}" />
+              <marker date="1560239507791" expanded="true" signature="15002:15920" ph="{...}" />
+              <marker date="1560239507791" expanded="true" signature="16243:16272" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="16298:16338" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="16812:16819" ph="{}" />
+              <marker date="1560239507791" expanded="true" signature="16870:16933" ph="{...}" />
+              <marker date="1560239507791" expanded="true" signature="17003:17102" ph="{...}" />
+              <marker date="1560239507791" expanded="true" signature="17223:17263" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="17840:17984" ph="{...}" />
+              <marker date="1560239507791" expanded="true" signature="18809:19636" ph="{...}" />
+              <marker date="1560239507791" expanded="true" signature="24356:24392" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="24422:24462" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="24846:24885" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="25122:25206" ph="{...}" />
+              <marker date="1560239507791" expanded="true" signature="25661:25697" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="25727:25767" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="27369:27398" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="27422:27462" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="28158:28192" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="28494:28523" ph="@{...}" />
+              <marker date="1560239507791" expanded="true" signature="28547:28587" ph="@{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1251,8 +1360,8 @@
     <entry file="file://$PROJECT_DIR$/ly-item/笔记/笔记：商品微服务（下）.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <first_editor relative-caret-position="198">
+            <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
